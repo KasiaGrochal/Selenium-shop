@@ -1,11 +1,18 @@
+package loginTest;
+
 import handlers.FakeDataGenerator;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.RepeatedTest;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
-import pages.loginPage.LoginPage;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import pages.MainPage.MainPage;
+import pages.loginPage.LoginPage;
 import pages.topMenuPage.TopMenuPage;
+import testBase.TestBase;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;
@@ -13,8 +20,12 @@ import static org.hamcrest.Matchers.equalTo;
 @Execution(ExecutionMode.CONCURRENT)
 public class LoginTest extends TestBase {
 
-    @Test
+    Logger logger = LoggerFactory.getLogger(LoginTest.class);
+
+    @RepeatedTest(5)
     @DisplayName("Log in with non-existing user.")
+    @Tag("login")
+    @Tag("regression")
     void loginTestNegative() {
         FakeDataGenerator fake = new FakeDataGenerator();
         LoginPage loginPage = new LoginPage(driver);
