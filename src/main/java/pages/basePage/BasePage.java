@@ -1,4 +1,4 @@
-package pages;
+package pages.basePage;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TakesScreenshot;
@@ -32,6 +32,7 @@ public abstract class BasePage {
         this.jsExecutor = (JavascriptExecutor) driver;
         this.screenshot =(TakesScreenshot) driver;
         PageFactory.initElements(driver, this);   }
+
 
 
     public void waitForWebElementToBeClickable(WebElement webElement) {

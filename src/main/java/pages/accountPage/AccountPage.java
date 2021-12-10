@@ -1,10 +1,14 @@
-package pages;
+package pages.accountPage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import pages.basePage.BasePage;
 
-public class AccountPage extends BasePage{
+public class AccountPage extends BasePage {
+    Logger logger = LoggerFactory.getLogger(AccountPage.class);
     public AccountPage(WebDriver driver) {
         super(driver);
     }

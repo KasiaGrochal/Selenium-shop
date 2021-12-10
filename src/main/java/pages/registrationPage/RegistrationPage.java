@@ -1,12 +1,18 @@
-package pages;
+package pages.registrationPage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import pages.topMenuPage.TopMenuPage;
+import pages.basePage.BasePage;
 
 import java.util.List;
 
 public class RegistrationPage extends BasePage {
+
+    Logger logger = LoggerFactory.getLogger(RegistrationPage.class);
 
     public RegistrationPage(WebDriver driver) {
         super(driver);
@@ -37,7 +43,6 @@ public class RegistrationPage extends BasePage {
     private WebElement submitButton;
 
     public RegistrationPage chooseRandomGender() {
-        waitForWebElementToBeClickable(genderOptions.get(0));
         getRandomWebElementFromList(genderOptions).click();
         logger.info("Selected random gender.");
         return this;

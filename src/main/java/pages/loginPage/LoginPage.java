@@ -1,11 +1,17 @@
-package pages;
+package pages.loginPage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import pages.registrationPage.RegistrationPage;
+import pages.topMenuPage.TopMenuPage;
+import pages.basePage.BasePage;
 
 
 public class LoginPage extends BasePage {
+    Logger logger = LoggerFactory.getLogger(LoginPage.class);
 
     public LoginPage(WebDriver driver) {
         super(driver);

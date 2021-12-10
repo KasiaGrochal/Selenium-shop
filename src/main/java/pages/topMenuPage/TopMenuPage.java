@@ -1,12 +1,19 @@
-package pages;
+package pages.topMenuPage;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import pages.accountPage.AccountPage;
+import pages.basePage.BasePage;
+import pages.loginPage.LoginPage;
 
 import java.util.List;
 
-public class TopMenuPage extends BasePage{
+public class TopMenuPage extends BasePage {
+    Logger logger = LoggerFactory.getLogger(TopMenuPage.class);
+
     public TopMenuPage(WebDriver driver) {
         super(driver);
     }
