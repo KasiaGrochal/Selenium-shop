@@ -1,13 +1,13 @@
-package pages.topMenuPage;
+package pages.commons;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pages.accountPage.AccountPage;
-import pages.basePage.BasePage;
-import pages.loginPage.LoginPage;
+import pages.user.AccountPage;
+import pages.BasePage;
+import pages.user.LoginPage;
 
 import java.util.List;
 
@@ -28,8 +28,7 @@ public class TopMenuPage extends BasePage {
     private List<WebElement> userInfo;
 
     public LoginPage goToLoginPage(){
-        loginButton.click();
-        logger.info("Clicked on login button, navigating to login page");
+        clickObject(loginButton);
         return new LoginPage(driver);
     }
 

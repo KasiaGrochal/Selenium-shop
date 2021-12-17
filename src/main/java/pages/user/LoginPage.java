@@ -1,13 +1,13 @@
-package pages.loginPage;
+package pages.user;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import pages.BasePage;
 import pages.registrationPage.RegistrationPage;
-import pages.topMenuPage.TopMenuPage;
-import pages.basePage.BasePage;
+import pages.commons.TopMenuPage;
 
 
 public class LoginPage extends BasePage {
@@ -18,8 +18,7 @@ public class LoginPage extends BasePage {
     }
 
     public static String expectedMessage = "Authentication failed.";
-    public static String existingEmail = "existingemail@email.com";
-    public static String existingPassword = "haslo5";
+
 
 
     @FindBy(css = ".col-md-6 [name='email']")
@@ -38,15 +37,16 @@ public class LoginPage extends BasePage {
     private WebElement noAccountRegisterButton;
 
     public LoginPage logIn(String email, String password) {
-        waitForWebElementToBeClickable(emailBox);
-        emailBox.sendKeys(email);
-        logger.info("Filled email box with: {}", email);
-        passwordBox.sendKeys(password);
-        logger.info("Filled password box with: {}", password);
-        logInButton.click();
-        logger.info("Clicked on logIn button");
+        sendKeysToObject(emailBox, email);
+        sendKeysToObject(passwordBox, password);
+        //loginAction(emailBox,passwordBox,myUser);
+        clickObject(logInButton);
         return this;
     }
+    /*public LoginPage loginAction(WebElement emailBox, WebElement passwordBox, User user){
+        sendKeysToObject(emailBox, user.getEmail());
+        sendKeysToObject(passwordBox, user.getPassword());
+    }*/
 
     public String getAlertMessage() {
         String message = alertMessage.getText();

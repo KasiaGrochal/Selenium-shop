@@ -1,17 +1,17 @@
-package userRegistrationTest;
+package user;
 
 import handlers.FakeDataGenerator;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Tag;
+import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pages.MainPage.MainPage;
-import pages.loginPage.LoginPage;
+import pages.commons.TopMenuPage;
+import pages.mainPage.MainPage;
 import pages.registrationPage.RegistrationPage;
-import pages.topMenuPage.TopMenuPage;
+import pages.user.LoginPage;
 import testBase.TestBase;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -22,7 +22,7 @@ public class UserRegistrationTest extends TestBase {
 
     Logger logger = LoggerFactory.getLogger(UserRegistrationTest.class);
 
-    @RepeatedTest(5)
+    @Test
     @DisplayName("Register new user test")
     @Tag("userRgistration")
     @Tag("regression")

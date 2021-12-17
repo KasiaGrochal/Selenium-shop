@@ -1,0 +1,64 @@
+#default browser: chrome
+#default environment: test1
+
+
+browsers:
+#  chrome: CHROME
+#  firefox: FIREFOX
+#  ie: IE
+#  edge: EDGE
+
+environment:
+  test1:
+    envName: test1
+    webUrl: http://146.59.32.4/
+    title: TesterSii
+    login: userTest1
+    password: passwordTest1
+    existingEmail: existingemail@email.com
+    existingPassword: haslo5
+    failedLoginMessage: Authentication failed.
+#    active: true
+
+  test2:
+    envName: test2
+    webUrl: https://seleniumui.moderntester.pl/
+    title: Automation Pratice
+    login: userTest2
+    password: passwordTest2
+#    active: true
+
+  prod:
+    envName: prod
+    webUrl: https://www.filmweb.pl/
+    title: Filmweb - filmy takie jak Ty!
+    login: userProd
+    password: passwordProd
+#    active: true
+
+dataBase:
+  postgres:
+    dbName: dbPostgres
+    host: 18.23.55.80
+    user: postgresUser
+    dbPassword: postgresPassword
+#    active: true
+
+  mySql:
+    dbName: dbMySql
+    host: 19.55.23.70
+    user: mySqlUser
+    dbPassword: mySqlPassword
+#    active: true
+
+
+
+
+
+
+
+
+
+
+
+

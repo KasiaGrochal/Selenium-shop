@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>SeleniumBasic</artifactId>
+    <artifactId>yamlPractisce2</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -14,8 +14,8 @@
         <junit.jupiter.api.version>5.7.1</junit.jupiter.api.version>
         <junit.jupiter.engine.version>5.7.1</junit.jupiter.engine.version>
         <junit.jupiter.params.version>5.7.1</junit.jupiter.params.version>
-        <selenium.java.version>4.0.0-alpha-1</selenium.java.version>
-        <webdrivermanager.version>4.4.1</webdrivermanager.version>
+        <selenium.java.version>4.1.0</selenium.java.version>
+        <webdrivermanager.version>5.0.3</webdrivermanager.version>
         <hamcrest.version>2.2</hamcrest.version>
         <maven.surefire.plugin.version>3.0.0-M3</maven.surefire.plugin.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
@@ -25,9 +25,17 @@
         <logback.version>1.2.3</logback.version>
 
 
+
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-yaml</artifactId>
+            <version>2.13.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -87,6 +95,7 @@
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
         </dependency>
+
 
 
     </dependencies>

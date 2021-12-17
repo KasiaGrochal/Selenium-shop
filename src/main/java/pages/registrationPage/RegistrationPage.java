@@ -5,8 +5,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pages.topMenuPage.TopMenuPage;
-import pages.basePage.BasePage;
+import pages.commons.TopMenuPage;
+import pages.BasePage;
 
 import java.util.List;
 

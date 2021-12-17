@@ -1,17 +1,16 @@
-package loginTest;
+package user;
 
 import handlers.FakeDataGenerator;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.parallel.Execution;
 import org.junit.jupiter.api.parallel.ExecutionMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pages.MainPage.MainPage;
-import pages.loginPage.LoginPage;
-import pages.topMenuPage.TopMenuPage;
+import pages.mainPage.MainPage;
+import pages.user.LoginPage;
+import pages.commons.TopMenuPage;
 import testBase.TestBase;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -22,7 +21,7 @@ public class LoginTest extends TestBase {
 
     Logger logger = LoggerFactory.getLogger(LoginTest.class);
 
-    @RepeatedTest(5)
+    @Test
     @DisplayName("Log in with non-existing user.")
     @Tag("login")
     @Tag("regression")
@@ -31,7 +30,6 @@ public class LoginTest extends TestBase {
         LoginPage loginPage = new LoginPage(driver);
 
         new MainPage(driver).
-                openWebsite().
                 navigateToTopMenuPage();
         new TopMenuPage(driver).
                 goToLoginPage();
@@ -39,22 +37,22 @@ public class LoginTest extends TestBase {
                 logIn(fake.getFakeEmail(), fake.getFakePasswordLimit(5, 99));
 
         assertThat(
-                loginPage.getAlertMessage(), equalTo(LoginPage.expectedMessage));
-        logger.info("Alert message as expected: {}", LoginPage.expectedMessage);
+                loginPage.getAlertMessage(), equalTo(System.getProperty("failedLoginMessage")));
+        logger.info("Alert message as expected: {}", System.getProperty("failedLoginMessage"));
     }
 
     @Test
     @DisplayName("Log in with existing user.")
     void loginTestPositive() {
         TopMenuPage topMenuPage = new TopMenuPage(driver);
+        LoginPage loginPage = new LoginPage(driver);
 
         new MainPage(driver).
-                openWebsite().
                 navigateToTopMenuPage();
         topMenuPage.
                 goToLoginPage();
-        new LoginPage(driver).
-                logIn(LoginPage.existingEmail, LoginPage.existingPassword).
+        loginPage.
+                logIn(System.getProperty("existingEmail"), System.getProperty("existingPassword")).
                 navigateToTopMenuPage();
 
         assertThat(topMenuPage.isUserLoggedIn(), equalTo(true));

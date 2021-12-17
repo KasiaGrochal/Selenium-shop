@@ -1,10 +1,10 @@
-package pages.MainPage;
+package pages.mainPage;
 
 import org.openqa.selenium.WebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import pages.topMenuPage.TopMenuPage;
-import pages.basePage.BasePage;
+import pages.commons.TopMenuPage;
+import pages.BasePage;
 
 public class MainPage extends BasePage {
     Logger logger = LoggerFactory.getLogger(MainPage.class);
