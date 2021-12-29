@@ -79,6 +79,7 @@ public class CheckOutPage extends BasketPage {
                     break;
             }
         }
+        waitForElementToBeVisibleFluent(deliveryContinueButton);
         deliveryContinueButton.click();
         return this;
     }
