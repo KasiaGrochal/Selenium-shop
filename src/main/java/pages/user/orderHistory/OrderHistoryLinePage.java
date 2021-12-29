@@ -73,6 +73,7 @@ public class OrderHistoryLinePage extends BasePage {
     }
 
     public boolean isTotalPriceCorrect(Basket basket) {
+        logger.info("Total Price should be: {}",basket.getBasketTotalCost());
         logger.info("Order Total Price is displayed Correctly: {}", getOrderTotalPrice().equals(basket.getBasketTotalCost()));
         return getOrderTotalPrice().equals(basket.getBasketTotalCost());
     }

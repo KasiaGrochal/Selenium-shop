@@ -21,8 +21,7 @@ public class SearchTest extends Pages {
         topMenuPage.
                 typeInSearchBox(randomName).
                 clickOnSearchIcon();
-        assertThat(
-                productsGridPage.isProductOnTheList(randomName), equalTo(true));
+        assertThat(productsGridPage.isProductOnTheList(randomName), equalTo(true));
     }
 
     @Test
@@ -33,8 +32,7 @@ public class SearchTest extends Pages {
 
         topMenuPage.
                 typeInSearchBox(randomName);
-        assertThat(
-                topMenuPage.checkIfSearchedProductIsOnTheDropdownList(randomName), equalTo(true));
+        assertThat(topMenuPage.checkIfSearchedProductIsOnTheDropdownList(randomName), equalTo(true));
 
     }
 

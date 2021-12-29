@@ -23,14 +23,9 @@ public class CategoriesTest extends Pages {
             String categoryName = topMenuPage.getTextFromObject(currentCategory);
             topMenuPage.
                     clickOnCategory(currentCategory);
-            assertThat(
-                    categoriesPage.
-                            getCategoryName(), equalTo(categoryName));
-            assertThat(
-                    filtersPage.
-                            isFilterBoxVisible(), equalTo(true));
-            assertThat(
-                    productsGridPage.getAmountOfDisplayedProducts(), equalTo(categoriesPage.getTotalProductsInfoAsInt()));
+            assertThat(categoriesPage.getCategoryName(), equalTo(categoryName));
+            assertThat(filtersPage.isFilterBoxVisible(), equalTo(true));
+            assertThat(productsGridPage.getAmountOfDisplayedProducts(), equalTo(categoriesPage.getTotalProductsInfoAsInt()));
         }
     }
 
@@ -49,12 +44,9 @@ public class CategoriesTest extends Pages {
                 WebElement currentSubCategory = listOfSubCategories.get(j);
                 String subCategoryName = currentSubCategory.getText();
                 topMenuPage.clickOnButton(currentSubCategory);
-                assertThat(
-                        categoriesPage.getCategoryName(), equalTo(subCategoryName));
-                assertThat(
-                        filtersPage.isFilterBoxVisible(), equalTo(true));
-                assertThat(
-                        productsGridPage.getAmountOfDisplayedProducts(), equalTo(categoriesPage.getTotalProductsInfoAsInt()));
+                assertThat(categoriesPage.getCategoryName(), equalTo(subCategoryName));
+                assertThat(filtersPage.isFilterBoxVisible(), equalTo(true));
+                assertThat(productsGridPage.getAmountOfDisplayedProducts(), equalTo(categoriesPage.getTotalProductsInfoAsInt()));
                 topMenuPage.moveToCategoryName(topMenuPage.getListOfCategories().get(i));
             }
         }

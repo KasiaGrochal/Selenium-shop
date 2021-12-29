@@ -19,12 +19,7 @@ public class Basket {
     public Basket() {
         basketLists = new ArrayList<>();
         totalQuantity = getBasketTotalQuantity();
-        totalCost =getBasketTotalCost();
-    }
-
-
-    public void updateBasketTotalCost(){
-        this.totalCost = getBasketTotalCost();
+        totalCost = getBasketTotalCost();
     }
 
     public void addProductToBasket(String productName, BigDecimal price, int quantity){

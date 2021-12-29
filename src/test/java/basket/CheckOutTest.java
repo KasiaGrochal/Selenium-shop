@@ -31,7 +31,7 @@ public class CheckOutTest extends Pages {
         registrationPage.
                 registerNewUser(randomUser);
         productDetailsPage.
-                addRandomProductsToBasket(currentBasket, 5, quantity).
+                addRandomProductsToBasket(currentBasket, 4, quantity).
                 addRandomProductToBasketAndGoToCheckOut(currentBasket);
         checkOutPage.
                 fillInAddressDetails(address).

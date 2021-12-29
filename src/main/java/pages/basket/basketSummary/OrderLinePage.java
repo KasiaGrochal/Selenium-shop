@@ -45,7 +45,6 @@ public class OrderLinePage extends BasePage {
     public OrderLinePage clickOnTrashIcon(Basket basket, int orderLineIndex){
         noStaleClick(trashIcon);
         basket.deleteOrderLine(orderLineIndex);
-        basket.updateBasketTotalCost();
         return this;
     }
 
@@ -53,7 +52,6 @@ public class OrderLinePage extends BasePage {
         noStaleClick(increaseProductQuantityArrow);
         orderLine.setQuantity(orderLine.getQuantity()+1);
         orderLine.updateTotalCost();
-        basket.updateBasketTotalCost();
         return this;
     }
 
@@ -63,7 +61,6 @@ public class OrderLinePage extends BasePage {
         noStaleClick(decreaseProductQuantityArrow);
         orderLine.setQuantity(orderLine.getQuantity()-1);
         orderLine.updateTotalCost();
-        basket.updateBasketTotalCost();
         return this;
     }
 
@@ -89,7 +86,6 @@ public class OrderLinePage extends BasePage {
         action.sendKeys(productQuantity, Keys.ENTER).build().perform();
         orderLine.setQuantity(Integer.parseInt(value));
         orderLine.updateTotalCost();
-        basket.updateBasketTotalCost();
         return this;
     }
 

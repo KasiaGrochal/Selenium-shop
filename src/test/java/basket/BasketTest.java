@@ -26,17 +26,19 @@ public class BasketTest extends Pages {
         topMenuPage.
                 clickOnBasketIcon();
         assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
-        basketPage.
-                setOrderLineQuantity("5", orderLineIndex, currentBasket);
-        assertThat(basketPage.getOrderLineQuantity(orderLineIndex)).isEqualTo(currentBasket.getOrderLineQuantity(orderLineIndex));
         assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         basketPage.
+                setOrderLineQuantity("5", orderLineIndex, currentBasket);
+        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
+        assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+
+        basketPage.
                 increaseOrderLineQuantityByClick(currentBasket, orderLineIndex);
-        assertThat(basketPage.getOrderLineQuantity(orderLineIndex)).isEqualTo(currentBasket.getOrderLineQuantity(orderLineIndex));
+        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         basketPage.
                 decreaseOrderLineQuantityByClick(currentBasket, orderLineIndex);
-        assertThat(basketPage.getOrderLineQuantity(orderLineIndex)).isEqualTo(currentBasket.getOrderLineQuantity(orderLineIndex));
+        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         for (OrderLinePage orderLine : basketPage.getListOfOrderLines()) {
             basketPage.
