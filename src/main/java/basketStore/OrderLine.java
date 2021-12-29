@@ -4,9 +4,9 @@ import java.math.BigDecimal;
 
 public class OrderLine {
 
-    Product product;
-    int quantity;
-    BigDecimal totalCost;
+    public Product product;
+    public int quantity;
+    public BigDecimal totalCost;
 
 
     public OrderLine(Product product, int quantity) {

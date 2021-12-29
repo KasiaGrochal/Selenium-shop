@@ -22,6 +22,9 @@ public class ShoppingCartPopUpPage extends BasePage {
     @FindBy(css = ".product-price:nth-of-type(1)")
     private WebElement productPrice;
 
+    @FindBy(css = ".product-quantity>strong")
+    private WebElement productQuantity;
+
     @FindBy(css = ".product-total .value")
     private WebElement totalValue;
 
@@ -37,6 +40,15 @@ public class ShoppingCartPopUpPage extends BasePage {
     @FindBy(css = "#blockcart-modal")
     private WebElement popUpDialog;
 
+    public String getProductQuantity(){
+        waitForElementToBeVisibleFluent(productQuantity);
+       return getTextFromObject(productQuantity);
+    }
+
+    public Integer getProductQuantityAsInteger(){
+        return FormatTextHandler.getIntFromString(getProductQuantity());
+    }
+
     public ShoppingCartPopUpPage clickOnProceedToCheckOut() {
         waitForAttributeToBe(popUpDialog,"style","display: block;");
         clickOnButton(proceedToCheckOutButton);
@@ -44,6 +56,8 @@ public class ShoppingCartPopUpPage extends BasePage {
     }
 
     public String getThereIsXItemsInfo() {
+        waitForAttributeToBe(popUpDialog,"style","display: block;");
+        waitForElementToBeVisibleFluent(thereIsXItems);
         return getTextFromObject(thereIsXItems);
     }
 
@@ -52,6 +66,7 @@ public class ShoppingCartPopUpPage extends BasePage {
     }
 
     public String getTotalProductsValue() {
+        waitForElementToBeVisibleFluent(totalValue);
         return getTextFromObject(totalValue);
     }
 
@@ -82,7 +97,7 @@ public class ShoppingCartPopUpPage extends BasePage {
 
     public OrderLine getOrderLineInfo() {
         Product product = new Product(getProductName(), getProductPriceAsBigDecimal());
-        return new OrderLine(product, getThereIsXItemsInfoAsInt());
+        return new OrderLine(product, getProductQuantityAsInteger());
     }
 
 }

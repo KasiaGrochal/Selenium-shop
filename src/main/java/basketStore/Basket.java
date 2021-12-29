@@ -71,5 +71,14 @@ public class Basket {
         return getBasketLists().get(orderLineIndex).getQuantity();
     }
 
+    public OrderLine getOrderLineByProductName(String productName){
+        for (OrderLine orderLine: getBasketLists()){
+            if(orderLine.getProduct().getName().equals(productName)){
+                return orderLine;
+            }
+        }
+        return null;
+    }
+
 
 }
