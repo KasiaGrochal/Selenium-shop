@@ -10,13 +10,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.ie.InternetExplorerOptions;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
-import configuration.WebListener;
 
 public class DriverFactory {
-
-    private EventFiringWebDriver webDriver;
-    private WebListener webListener;
 
     public WebDriver getDriver(Browser browser) {
         switch (browser) {
