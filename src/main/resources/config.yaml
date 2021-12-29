@@ -1,7 +1,6 @@
 #default browser: chrome
 #default environment: test1
 
-
 browsers:
 #  chrome: CHROME
 #  firefox: FIREFOX
@@ -12,17 +11,27 @@ environment:
   test1:
     envName: test1
     webUrl: http://146.59.32.4/
+    wait: 40
     title: TesterSii
     login: userTest1
     password: passwordTest1
     existingEmail: existingemail@email.com
     existingPassword: haslo5
     failedLoginMessage: Authentication failed.
+    minPasswordLength: 5
+    maxPasswordLength: 20
+    filterBoxText: FILTER BY
+    onSaleHeaderText: ON SALE
+    discountFlagValue: -20%
+    discountPercentageValue: SAVE 20%
+    deliveryOption: TesterSii
+    paymentMethod: Bank transfer
 #    active: true
 
   test2:
     envName: test2
     webUrl: https://seleniumui.moderntester.pl/
+    wait: 10
     title: Automation Pratice
     login: userTest2
     password: passwordTest2
@@ -31,6 +40,7 @@ environment:
   prod:
     envName: prod
     webUrl: https://www.filmweb.pl/
+    wait: 10
     title: Filmweb - filmy takie jak Ty!
     login: userProd
     password: passwordProd

@@ -1,0 +1,1071 @@
+447 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - No environment was specified in config.yaml. Loading default properties for Test1
+447 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - No environment was specified in config.yaml. Loading default properties for Test1
+447 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - No environment was specified in config.yaml. Loading default properties for Test1
+447 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - No environment was specified in config.yaml. Loading default properties for Test1
+447 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - No environment was specified in config.yaml. Loading default properties for Test1
+447 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - No environment was specified in config.yaml. Loading default properties for Test1
+447 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - No environment was specified in config.yaml. Loading default properties for Test1
+447 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - No environment was specified in config.yaml. Loading default properties for Test1
+463 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: envName = test1
+463 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: envName = test1
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: envName = test1
+463 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: envName = test1
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: envName = test1
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: webUrl = http://146.59.32.4/
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: envName = test1
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: webUrl = http://146.59.32.4/
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: webUrl = http://146.59.32.4/
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: webUrl = http://146.59.32.4/
+463 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: envName = test1
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: webUrl = http://146.59.32.4/
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: envName = test1
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: wait = 40
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: webUrl = http://146.59.32.4/
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: webUrl = http://146.59.32.4/
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: wait = 40
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: wait = 40
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: wait = 40
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: wait = 40
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: wait = 40
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: title = TesterSii
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: title = TesterSii
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: title = TesterSii
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: webUrl = http://146.59.32.4/
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: title = TesterSii
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: wait = 40
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: title = TesterSii
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: title = TesterSii
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: title = TesterSii
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: login = userTest1
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: login = userTest1
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: login = userTest1
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: login = userTest1
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: login = userTest1
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: wait = 40
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: password = passwordTest1
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: password = passwordTest1
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: title = TesterSii
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: existingEmail = existingemail@email.com
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: login = userTest1
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: existingPassword = haslo5
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: login = userTest1
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: password = passwordTest1
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: password = passwordTest1
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: password = passwordTest1
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: password = passwordTest1
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: existingEmail = existingemail@email.com
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: existingEmail = existingemail@email.com
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: password = passwordTest1
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: existingEmail = existingemail@email.com
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: existingEmail = existingemail@email.com
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: existingPassword = haslo5
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: existingPassword = haslo5
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: existingEmail = existingemail@email.com
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: existingPassword = haslo5
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: login = userTest1
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: existingPassword = haslo5
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: failedLoginMessage = Authentication failed.
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: failedLoginMessage = Authentication failed.
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: existingEmail = existingemail@email.com
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: minPasswordLength = 5
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: existingPassword = haslo5
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: failedLoginMessage = Authentication failed.
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: existingPassword = haslo5
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: failedLoginMessage = Authentication failed.
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: failedLoginMessage = Authentication failed.
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: failedLoginMessage = Authentication failed.
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: failedLoginMessage = Authentication failed.
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: minPasswordLength = 5
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: minPasswordLength = 5
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: password = passwordTest1
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: minPasswordLength = 5
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: minPasswordLength = 5
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: maxPasswordLength = 20
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: maxPasswordLength = 20
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: minPasswordLength = 5
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: maxPasswordLength = 20
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: minPasswordLength = 5
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: filterBoxText = FILTER BY
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: maxPasswordLength = 20
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: maxPasswordLength = 20
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: filterBoxText = FILTER BY
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: existingEmail = existingemail@email.com
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: maxPasswordLength = 20
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: filterBoxText = FILTER BY
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: onSaleHeaderText = ON SALE
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: existingPassword = haslo5
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: filterBoxText = FILTER BY
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: discountFlagValue = -20%
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: failedLoginMessage = Authentication failed.
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: onSaleHeaderText = ON SALE
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: maxPasswordLength = 20
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: onSaleHeaderText = ON SALE
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: filterBoxText = FILTER BY
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: filterBoxText = FILTER BY
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: discountFlagValue = -20%
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: onSaleHeaderText = ON SALE
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: filterBoxText = FILTER BY
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: onSaleHeaderText = ON SALE
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: onSaleHeaderText = ON SALE
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: discountFlagValue = -20%
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: discountPercentageValue = SAVE 20%
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: onSaleHeaderText = ON SALE
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: discountFlagValue = -20%
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: minPasswordLength = 5
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: deliveryOption = TesterSii
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: discountFlagValue = -20%
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: discountPercentageValue = SAVE 20%
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: discountFlagValue = -20%
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: discountPercentageValue = SAVE 20%
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: discountFlagValue = -20%
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: discountPercentageValue = SAVE 20%
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: discountPercentageValue = SAVE 20%
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: deliveryOption = TesterSii
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: maxPasswordLength = 20
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: deliveryOption = TesterSii
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: deliveryOption = TesterSii
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment property: paymentMethod = Bank transfer
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment property: paymentMethod = Bank transfer
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment property: paymentMethod = Bank transfer
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: discountPercentageValue = SAVE 20%
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment property: paymentMethod = Bank transfer
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: deliveryOption = TesterSii
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: discountPercentageValue = SAVE 20%
+470 [ForkJoinPool-1-worker-9] INFO  configuration.AppProperties - Loaded environment properties total: 17
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment property: paymentMethod = Bank transfer
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: filterBoxText = FILTER BY
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: deliveryOption = TesterSii
+470 [ForkJoinPool-1-worker-27] INFO  configuration.AppProperties - Loaded environment properties total: 17
+470 [ForkJoinPool-1-worker-5] INFO  configuration.AppProperties - Loaded environment properties total: 17
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: onSaleHeaderText = ON SALE
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: deliveryOption = TesterSii
+470 [ForkJoinPool-1-worker-23] INFO  configuration.AppProperties - Loaded environment properties total: 17
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: discountFlagValue = -20%
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment property: paymentMethod = Bank transfer
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: discountPercentageValue = SAVE 20%
+470 [ForkJoinPool-1-worker-19] INFO  configuration.AppProperties - Loaded environment properties total: 17
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment property: paymentMethod = Bank transfer
+470 [ForkJoinPool-1-worker-31] INFO  configuration.AppProperties - Loaded environment properties total: 17
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: deliveryOption = TesterSii
+470 [ForkJoinPool-1-worker-13] INFO  configuration.AppProperties - Loaded environment properties total: 17
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment property: paymentMethod = Bank transfer
+470 [ForkJoinPool-1-worker-17] INFO  configuration.AppProperties - Loaded environment properties total: 17
+470 [ForkJoinPool-1-worker-19] INFO  model.TestBase - Initialized environment properties
+470 [ForkJoinPool-1-worker-19] INFO  model.TestBase - Initialized browser environment
+470 [ForkJoinPool-1-worker-17] INFO  model.TestBase - Initialized environment properties
+470 [ForkJoinPool-1-worker-23] INFO  model.TestBase - Initialized environment properties
+470 [ForkJoinPool-1-worker-17] INFO  model.TestBase - Initialized browser environment
+470 [ForkJoinPool-1-worker-23] INFO  model.TestBase - Initialized browser environment
+470 [ForkJoinPool-1-worker-31] INFO  model.TestBase - Initialized environment properties
+470 [ForkJoinPool-1-worker-9] INFO  model.TestBase - Initialized environment properties
+470 [ForkJoinPool-1-worker-9] INFO  model.TestBase - Initialized browser environment
+470 [ForkJoinPool-1-worker-13] INFO  model.TestBase - Initialized environment properties
+470 [ForkJoinPool-1-worker-13] INFO  model.TestBase - Initialized browser environment
+470 [ForkJoinPool-1-worker-31] INFO  model.TestBase - Initialized browser environment
+485 [ForkJoinPool-1-worker-27] INFO  model.TestBase - Initialized environment properties
+485 [ForkJoinPool-1-worker-27] INFO  model.TestBase - Initialized browser environment
+485 [ForkJoinPool-1-worker-5] INFO  model.TestBase - Initialized environment properties
+485 [ForkJoinPool-1-worker-5] INFO  model.TestBase - Initialized browser environment
+501 [ForkJoinPool-1-worker-9] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-23] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-21] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-31] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-13] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-27] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-7] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-25] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-3] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-19] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-17] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+501 [ForkJoinPool-1-worker-11] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+848 [ForkJoinPool-1-worker-21] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-13] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-21] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-23] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-13] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-7] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-9] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-23] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-13] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+848 [ForkJoinPool-1-worker-21] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+848 [ForkJoinPool-1-worker-7] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-7] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+848 [ForkJoinPool-1-worker-23] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+848 [ForkJoinPool-1-worker-9] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-9] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+848 [ForkJoinPool-1-worker-27] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-25] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-31] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-31] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-31] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+848 [ForkJoinPool-1-worker-3] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-25] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-25] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+848 [ForkJoinPool-1-worker-19] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-17] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-11] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+848 [ForkJoinPool-1-worker-3] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-19] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+848 [ForkJoinPool-1-worker-3] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+848 [ForkJoinPool-1-worker-19] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+864 [ForkJoinPool-1-worker-27] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+864 [ForkJoinPool-1-worker-27] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+864 [ForkJoinPool-1-worker-17] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+864 [ForkJoinPool-1-worker-17] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+864 [ForkJoinPool-1-worker-11] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+864 [ForkJoinPool-1-worker-11] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+871 [ForkJoinPool-1-worker-13] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-21] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-9] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-11] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-3] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-13] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-27] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-3] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-25] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-9] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-11] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-21] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-31] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-27] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-25] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-23] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-31] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-19] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-7] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-23] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-17] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+871 [ForkJoinPool-1-worker-7] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-19] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+871 [ForkJoinPool-1-worker-17] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+3369 [ForkJoinPool-1-worker-3] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+3374 [ForkJoinPool-1-worker-13] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+3392 [ForkJoinPool-1-worker-13] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+3392 [ForkJoinPool-1-worker-3] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+3735 [ForkJoinPool-1-worker-27] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+3735 [ForkJoinPool-1-worker-27] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+3788 [ForkJoinPool-1-worker-23] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+3788 [ForkJoinPool-1-worker-23] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+4140 [ForkJoinPool-1-worker-7] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+4140 [ForkJoinPool-1-worker-7] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+4380 [ForkJoinPool-1-worker-17] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+4380 [ForkJoinPool-1-worker-17] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+4529 [ForkJoinPool-1-worker-31] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+4529 [ForkJoinPool-1-worker-31] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+4706 [ForkJoinPool-1-worker-25] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+4706 [ForkJoinPool-1-worker-25] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+4803 [ForkJoinPool-1-worker-13] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+4803 [ForkJoinPool-1-worker-13] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+4903 [ForkJoinPool-1-worker-11] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+4903 [ForkJoinPool-1-worker-11] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+4935 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+5067 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: HUMMINGBIRD T-SHIRT
+5068 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+5290 [ForkJoinPool-1-worker-9] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+5290 [ForkJoinPool-1-worker-9] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+5319 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Typed text 'HUMMINGBIRD T-SHIRT' to webelement: ui-autocomplete-input
+5319 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+5386 [ForkJoinPool-1-worker-19] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+5387 [ForkJoinPool-1-worker-19] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+5535 [ForkJoinPool-1-worker-3] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+5535 [ForkJoinPool-1-worker-3] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+5542 [ForkJoinPool-1-worker-21] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+5543 [ForkJoinPool-1-worker-21] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+5583 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+5684 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: MUG TODAY IS A GOOD DAY
+5684 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+5888 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Typed text 'MUG TODAY IS A GOOD DAY' to webelement: ui-autocomplete-input
+5888 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+5922 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+5961 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: Men > HUMMINGBIRD T-SHIRT
+6308 [ForkJoinPool-1-worker-27] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+6308 [ForkJoinPool-1-worker-27] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+6313 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+6488 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Clicked on webelement: 
+6513 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+6576 [ForkJoinPool-1-worker-13] INFO  model.TestBase - Browser closed properly
+6580 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: MUG TODAY IS A GOOD DAY
+6588 [ForkJoinPool-1-worker-29] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+6594 [ForkJoinPool-1-worker-29] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+6595 [ForkJoinPool-1-worker-29] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+6595 [ForkJoinPool-1-worker-29] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+6602 [ForkJoinPool-1-worker-29] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+6605 [ForkJoinPool-1-worker-29] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+6916 [ForkJoinPool-1-worker-23] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+6917 [ForkJoinPool-1-worker-23] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+6950 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+6986 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: CLOTHES
+6986 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+7174 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Clicked on webelement: Sign in
+7174 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+7220 [ForkJoinPool-1-worker-3] INFO  model.TestBase - Browser closed properly
+7227 [ForkJoinPool-1-worker-3] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+7229 [ForkJoinPool-1-worker-13] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+7237 [ForkJoinPool-1-worker-3] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+7238 [ForkJoinPool-1-worker-3] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+7238 [ForkJoinPool-1-worker-3] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+7241 [ForkJoinPool-1-worker-13] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+7241 [ForkJoinPool-1-worker-13] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+7241 [ForkJoinPool-1-worker-13] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+7244 [ForkJoinPool-1-worker-3] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+7245 [ForkJoinPool-1-worker-3] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+7247 [ForkJoinPool-1-worker-13] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+7249 [ForkJoinPool-1-worker-13] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+7484 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Typed text 'existingemail@email.com' to webelement: form-control
+7484 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+7726 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Typed text 'haslo5' to webelement: form-control js-child-focus js-visible-password
+7727 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+7758 [ForkJoinPool-1-worker-29] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+7758 [ForkJoinPool-1-worker-29] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+8123 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Clicked on webelement: CLOTHES
+8124 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+8252 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: CLOTHES
+8252 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+8372 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: FILTER BY
+8415 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+8860 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: There are 2 products.
+8889 [ForkJoinPool-1-worker-13] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+8889 [ForkJoinPool-1-worker-13] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+8996 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+9112 [ForkJoinPool-1-worker-3] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+9113 [ForkJoinPool-1-worker-3] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+9146 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: ACCESSORIES
+9147 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+9210 [ForkJoinPool-1-worker-17] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+9210 [ForkJoinPool-1-worker-17] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+9227 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+9275 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Clicked on webelement: SIGN IN
+9276 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Navigating to TopMenuPage
+9291 [ForkJoinPool-1-worker-7] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+9292 [ForkJoinPool-1-worker-7] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+9308 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+9379 [ForkJoinPool-1-worker-11] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+9379 [ForkJoinPool-1-worker-11] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+9390 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+9473 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+10059 [ForkJoinPool-1-worker-27] INFO  pages.commons.TopMenuPage - Clicked on account name button. Navigating to Account Page
+10061 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+10116 [ForkJoinPool-1-worker-25] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+10117 [ForkJoinPool-1-worker-25] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+10126 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+10237 [ForkJoinPool-1-worker-9] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+10237 [ForkJoinPool-1-worker-9] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+10465 [ForkJoinPool-1-worker-19] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+10465 [ForkJoinPool-1-worker-19] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+10609 [ForkJoinPool-1-worker-31] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+10609 [ForkJoinPool-1-worker-31] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+10622 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+10647 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+10679 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Clicked on webelement: Prices drop
+10680 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+10693 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Clicked on webelement: ACCESSORIES
+10693 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+10773 [ForkJoinPool-1-worker-21] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+10773 [ForkJoinPool-1-worker-21] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+10780 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+10818 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: ACCESSORIES
+10818 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+10818 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+10819 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+10840 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+10904 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: FILTER BY
+10934 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+10966 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Displayed text from webelement: -20%
+10995 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Clicked on webelement: Prices drop
+10995 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11065 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: There are 10 products.
+11097 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11102 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+11102 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11124 [ForkJoinPool-1-worker-21] INFO  pages.commons.TopMenuPage - moved to category: CLOTHES
+MEN
+WOMEN
+11133 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11142 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+11149 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: ART
+11149 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+11211 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+11212 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11238 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: -20%
+11280 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+11283 [ForkJoinPool-1-worker-17] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+11284 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11314 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Clicked on webelement: ACCESSORIES
+11364 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11373 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Displayed text from webelement: -20%
+11453 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+11453 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11469 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11503 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+11503 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+11504 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11523 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+11523 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11582 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: -20%
+11582 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+11582 [ForkJoinPool-1-worker-17] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+11685 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11736 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+11736 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+11806 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+11806 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+12038 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Clicked on webelement: Sign in
+12041 [ForkJoinPool-1-worker-27] INFO  pages.user.AccountPage - Clicked on log out button
+12092 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+12209 [ForkJoinPool-1-worker-29] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+12209 [ForkJoinPool-1-worker-29] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+12216 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+12312 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+12393 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Typed text 'denis.reichert@hotmail.com' to webelement: form-control
+12393 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+12419 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: Sign in
+12420 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+12632 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Typed text '9miwie09vqvsbrs' to webelement: form-control js-child-focus js-visible-password
+12633 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+12742 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Clicked on webelement: Sign in
+12742 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+12757 [ForkJoinPool-1-worker-27] INFO  model.TestBase - Browser closed properly
+12950 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Clicked on webelement: ART
+12951 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13243 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: ART
+13243 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13320 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13408 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Clicked on webelement: MEN
+13408 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13430 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Clicked on webelement: ART
+13502 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13541 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Clicked on webelement: SIGN IN
+13543 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13555 [ForkJoinPool-1-worker-3] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+13555 [ForkJoinPool-1-worker-3] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+13562 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+13624 [ForkJoinPool-1-worker-17] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+13670 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: FILTER BY
+13713 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13723 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Clicked on webelement: CLOTHES
+13735 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: No account? Create one here
+13742 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: MEN
+13742 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13767 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: Authentication failed.
+13780 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+13860 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Clicked on webelement: No account? Create one here
+13898 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: There are 6 products.
+13901 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+13912 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: FILTER BY
+13942 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13942 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+13962 [ForkJoinPool-1-worker-13] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+13962 [ForkJoinPool-1-worker-13] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+13978 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+14012 [ForkJoinPool-1-worker-17] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+14077 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: 
+14077 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14107 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14129 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Clicked on webelement: 
+14129 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14167 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: There is 1 product.
+14168 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+14425 [ForkJoinPool-1-worker-21] INFO  pages.commons.TopMenuPage - moved to category: CLOTHES
+MEN
+WOMEN
+14478 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14490 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Typed text '1' to webelement: input-group form-control
+14501 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Typed text '4' to webelement: input-group form-control
+14502 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text 'Cory' to webelement: form-control
+14502 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14549 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Typed text 'Vernie' to webelement: form-control
+14549 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14600 [ForkJoinPool-1-worker-25] INFO  model.TestBase - Browser closed properly
+14612 [ForkJoinPool-1-worker-25] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+14612 [ForkJoinPool-1-worker-27] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+14636 [ForkJoinPool-1-worker-25] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+14637 [ForkJoinPool-1-worker-25] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+14637 [ForkJoinPool-1-worker-25] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+14643 [ForkJoinPool-1-worker-27] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+14644 [ForkJoinPool-1-worker-27] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+14644 [ForkJoinPool-1-worker-27] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+14645 [ForkJoinPool-1-worker-23] INFO  model.TestBase - Browser closed properly
+14649 [ForkJoinPool-1-worker-25] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+14651 [ForkJoinPool-1-worker-25] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+14653 [ForkJoinPool-1-worker-27] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+14654 [ForkJoinPool-1-worker-27] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+14707 [ForkJoinPool-1-worker-21] INFO  pages.commons.TopMenuPage - moved to category: CLOTHES
+MEN
+WOMEN
+14735 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+14773 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Clicked on webelement: Prices drop
+14773 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14802 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Clicked on webelement: ACCESSORIES
+14806 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Typed text '4' to webelement: input-group form-control
+14826 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text 'Willms' to webelement: form-control
+14826 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14870 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Typed text 'Boehm' to webelement: form-control
+14870 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+14877 [ForkJoinPool-1-worker-17] INFO  model.TestBase - Browser closed properly
+14886 [ForkJoinPool-1-worker-15] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+14890 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+14894 [ForkJoinPool-1-worker-15] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+14895 [ForkJoinPool-1-worker-15] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+14895 [ForkJoinPool-1-worker-15] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+14901 [ForkJoinPool-1-worker-15] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+14901 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+14901 [ForkJoinPool-1-worker-15] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+14923 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15007 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: -20%
+15017 [ForkJoinPool-1-worker-11] INFO  model.TestBase - Browser closed properly
+15023 [ForkJoinPool-1-worker-11] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+15030 [ForkJoinPool-1-worker-11] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+15031 [ForkJoinPool-1-worker-11] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+15031 [ForkJoinPool-1-worker-11] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+15037 [ForkJoinPool-1-worker-11] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+15038 [ForkJoinPool-1-worker-11] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+15073 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text 'cathleen.smitham@yahoo.com' to webelement: form-control
+15073 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15104 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15127 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Typed text 'latesha.keebler@gmail.com' to webelement: form-control
+15128 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15154 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+15154 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15240 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+15240 [ForkJoinPool-1-worker-13] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+15240 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15270 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text 'qw4o6hiya8' to webelement: form-control js-child-focus js-visible-password
+15319 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: -20%
+15338 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Typed text 'lsffnu202' to webelement: form-control js-child-focus js-visible-password
+15462 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15505 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: 
+15591 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Clicked on webelement: WOMEN
+15591 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15669 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Clicked on webelement: 
+15792 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+15792 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15890 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: 
+15890 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+15904 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: WOMEN
+15904 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15960 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+15987 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Clicked on webelement: 
+15987 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+16009 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+16009 [ForkJoinPool-1-worker-13] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+16058 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: FILTER BY
+16062 [ForkJoinPool-1-worker-25] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+16063 [ForkJoinPool-1-worker-25] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+16074 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+16087 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+16236 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+16266 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: MUG THE BEST
+16270 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: There is 1 product.
+16296 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+16298 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+16345 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+16375 [ForkJoinPool-1-worker-27] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+16376 [ForkJoinPool-1-worker-27] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+16381 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: HUMMINGBIRD T-SHIRT
+16439 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Typed text '2' to webelement: input-group form-control
+16496 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+16504 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+16523 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: zł14.64
+16523 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+16527 [ForkJoinPool-1-worker-21] INFO  pages.commons.TopMenuPage - moved to category: CLOTHES
+MEN
+WOMEN
+16755 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+16755 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+16889 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+16960 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: There is 1 item in your cart.
+17003 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+17287 [ForkJoinPool-1-worker-15] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+17287 [ForkJoinPool-1-worker-15] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+17294 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+17303 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: There are 4 items in your cart.
+17323 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+17431 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: There is 1 item in your cart.
+17434 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+17500 [ForkJoinPool-1-worker-11] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+17500 [ForkJoinPool-1-worker-25] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+17500 [ForkJoinPool-1-worker-25] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+17500 [ForkJoinPool-1-worker-11] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+17508 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+17574 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: There are 4 items in your cart.
+17574 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+17608 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: zł14.64
+17610 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+17624 [ForkJoinPool-1-worker-21] INFO  pages.commons.TopMenuPage - moved to category: ACCESSORIES
+STATIONERY
+HOME ACCESSORIES
+17650 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+17666 [ForkJoinPool-1-worker-13] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+17695 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: zł94.07
+18037 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+18037 [ForkJoinPool-1-worker-27] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+18037 [ForkJoinPool-1-worker-27] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+18038 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+18045 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+18159 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: (1)
+18257 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+18444 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Clicked on webelement: ACCESSORIES
+18531 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+18669 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: MUG THE BEST
+18688 [ForkJoinPool-1-worker-29] INFO  model.TestBase - Browser closed properly
+18704 [ForkJoinPool-1-worker-13] INFO  model.TestBase - Browser closed properly
+18714 [ForkJoinPool-1-worker-29] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+18714 [ForkJoinPool-1-worker-13] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+18735 [ForkJoinPool-1-worker-29] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+18745 [ForkJoinPool-1-worker-29] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+18745 [ForkJoinPool-1-worker-29] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+18745 [ForkJoinPool-1-worker-13] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+18746 [ForkJoinPool-1-worker-13] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+18746 [ForkJoinPool-1-worker-13] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+18757 [ForkJoinPool-1-worker-13] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+18757 [ForkJoinPool-1-worker-29] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+18758 [ForkJoinPool-1-worker-29] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+18759 [ForkJoinPool-1-worker-13] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+18822 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+18871 [ForkJoinPool-1-worker-7] INFO  model.TestBase - Browser closed properly
+18888 [ForkJoinPool-1-worker-7] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+18906 [ForkJoinPool-1-worker-7] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+18907 [ForkJoinPool-1-worker-7] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+18907 [ForkJoinPool-1-worker-7] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+18926 [ForkJoinPool-1-worker-7] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+18928 [ForkJoinPool-1-worker-7] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+19157 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: SAVE
+19160 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+19262 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Clicked on webelement: SAVE
+19394 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Clicked on webelement: STATIONERY
+19394 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+19409 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: zł14.64
+19409 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+19415 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Clicked on webelement: Prices drop
+19416 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+19493 [ForkJoinPool-1-worker-19] INFO  pages.commons.TopMenuPage - Displayed username is: Vernie Boehm
+19493 [ForkJoinPool-1-worker-19] INFO  user.UserRegistrationTest - Displayed user name as added: Vernie Boehm
+19496 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Clicked on webelement: CLOTHES
+19578 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+19660 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: There are 2 items in your cart.
+19660 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+19706 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+19720 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: STATIONERY
+19720 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+19761 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+19921 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+19929 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: There are 2 items in your cart.
+19929 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+20090 [ForkJoinPool-1-worker-15] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+20091 [ForkJoinPool-1-worker-15] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+20103 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+20227 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: zł29.27
+20331 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: FILTER BY
+20383 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Typed text '4' to webelement: input-group form-control
+20426 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+20483 [ForkJoinPool-1-worker-11] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+20484 [ForkJoinPool-1-worker-11] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+20491 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: -20%
+20493 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+20512 [ForkJoinPool-1-worker-19] INFO  model.TestBase - Browser closed properly
+20521 [ForkJoinPool-1-worker-19] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+20531 [ForkJoinPool-1-worker-19] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+20532 [ForkJoinPool-1-worker-19] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+20532 [ForkJoinPool-1-worker-19] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+20538 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: ART
+20541 [ForkJoinPool-1-worker-19] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+20543 [ForkJoinPool-1-worker-19] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+20552 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+20701 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+20821 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: There are 3 products.
+21123 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+21469 [ForkJoinPool-1-worker-21] INFO  pages.commons.TopMenuPage - moved to category: ACCESSORIES
+STATIONERY
+HOME ACCESSORIES
+21528 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+21560 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Typed text '3' to webelement: input-group form-control
+21677 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+21755 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Clicked on webelement: Prices drop
+21755 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+21834 [ForkJoinPool-1-worker-13] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+21834 [ForkJoinPool-1-worker-13] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+21883 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+21883 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+22043 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+22055 [ForkJoinPool-1-worker-29] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+22055 [ForkJoinPool-1-worker-29] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+22077 [ForkJoinPool-1-worker-3] INFO  model.TestBase - Browser closed properly
+22093 [ForkJoinPool-1-worker-3] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+22102 [ForkJoinPool-1-worker-3] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+22103 [ForkJoinPool-1-worker-3] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+22103 [ForkJoinPool-1-worker-3] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+22106 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+22114 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+22114 [ForkJoinPool-1-worker-25] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+22114 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+22115 [ForkJoinPool-1-worker-3] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+22116 [ForkJoinPool-1-worker-3] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+22261 [ForkJoinPool-1-worker-21] INFO  pages.commons.TopMenuPage - moved to category: ACCESSORIES
+STATIONERY
+HOME ACCESSORIES
+22289 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+22312 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: -20%
+22325 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: -20%
+22326 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text '2' to webelement: input-group form-control
+22396 [ForkJoinPool-1-worker-7] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+22396 [ForkJoinPool-1-worker-7] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+22598 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+22625 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+22625 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+22626 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+22736 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Clicked on webelement: ACCESSORIES
+22841 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+22841 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+22910 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+23043 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+23044 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+23044 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+23110 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+23259 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+23259 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+23331 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: -20%
+23375 [ForkJoinPool-1-worker-13] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+23375 [ForkJoinPool-1-worker-13] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+23382 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+23624 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+23919 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+23948 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+23948 [ForkJoinPool-1-worker-25] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+24087 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: HUMMINGBIRD SWEATER
+24138 [ForkJoinPool-1-worker-29] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+24138 [ForkJoinPool-1-worker-29] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+24144 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+24314 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Clicked on webelement: HOME ACCESSORIES
+24314 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+24405 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+24489 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+24490 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+24493 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Clicked on webelement: ACCESSORIES
+24587 [ForkJoinPool-1-worker-3] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+24588 [ForkJoinPool-1-worker-3] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+24691 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+24692 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+24796 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+24830 [ForkJoinPool-1-worker-7] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+24830 [ForkJoinPool-1-worker-7] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+24836 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+24843 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+24843 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+24893 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: HOME ACCESSORIES
+24893 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+24908 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+24958 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: There are 3 items in your cart.
+24958 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+25160 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: FILTER BY
+25185 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+25186 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+25199 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: There are 3 items in your cart.
+25199 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+25323 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Clicked on webelement: Prices drop
+25323 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+25336 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+25353 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+25539 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: zł105.98
+25620 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+25846 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+25858 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+25912 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+25960 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+26034 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+26112 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Clicked on webelement: ACCESSORIES
+26153 [ForkJoinPool-1-worker-19] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+26154 [ForkJoinPool-1-worker-19] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+26188 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: There are 7 products.
+26244 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: -20%
+26289 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+26450 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+26531 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+26594 [ForkJoinPool-1-worker-21] INFO  pages.commons.TopMenuPage - moved to category: ACCESSORIES
+STATIONERY
+HOME ACCESSORIES
+26619 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Typed text '1' to webelement: input-group form-control
+26672 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Typed text '4' to webelement: input-group form-control
+26732 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Clicked on webelement: ART
+26752 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+26752 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+26811 [ForkJoinPool-1-worker-3] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+26811 [ForkJoinPool-1-worker-3] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+26815 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+26818 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+26955 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: ART
+27071 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+27071 [ForkJoinPool-1-worker-13] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+27071 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+27163 [ForkJoinPool-1-worker-25] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+27397 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: -20%
+27458 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+27554 [ForkJoinPool-1-worker-31] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+27612 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+27688 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+27787 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+27787 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+27810 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+27871 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+27969 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+27969 [ForkJoinPool-1-worker-13] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+28096 [ForkJoinPool-1-worker-19] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+28096 [ForkJoinPool-1-worker-19] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+28103 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+28323 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Typed text '1' to webelement: input-group form-control
+28335 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text '1' to webelement: input-group form-control
+28367 [ForkJoinPool-1-worker-27] INFO  model.TestBase - Browser closed properly
+28379 [ForkJoinPool-1-worker-27] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+28389 [ForkJoinPool-1-worker-27] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+28390 [ForkJoinPool-1-worker-27] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+28390 [ForkJoinPool-1-worker-27] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+28398 [ForkJoinPool-1-worker-27] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+28399 [ForkJoinPool-1-worker-27] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+28507 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Typed text '2' to webelement: input-group form-control
+28665 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Clicked on webelement: ACCESSORIES
+28684 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+28873 [ForkJoinPool-1-worker-13] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+28888 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+29099 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Clicked on webelement: Prices drop
+29099 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+29109 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+29120 [ForkJoinPool-1-worker-13] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+29137 [ForkJoinPool-1-worker-25] INFO  model.TestBase - Browser closed properly
+29137 [ForkJoinPool-1-worker-21] INFO  model.TestBase - Browser closed properly
+29139 [ForkJoinPool-1-worker-11] INFO  model.TestBase - Browser closed properly
+29144 [ForkJoinPool-1-worker-21] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+29144 [ForkJoinPool-1-worker-11] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+29145 [ForkJoinPool-1-worker-23] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+29147 [ForkJoinPool-1-worker-25] INFO  c.browser.BrowserProperties - No driver was specified. Running test on default browser: CHROME
+29153 [ForkJoinPool-1-worker-21] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+29153 [ForkJoinPool-1-worker-21] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+29153 [ForkJoinPool-1-worker-21] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+29159 [ForkJoinPool-1-worker-25] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+29159 [ForkJoinPool-1-worker-25] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+29159 [ForkJoinPool-1-worker-25] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+29160 [ForkJoinPool-1-worker-21] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+29161 [ForkJoinPool-1-worker-21] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+29169 [ForkJoinPool-1-worker-25] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+29170 [ForkJoinPool-1-worker-25] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+29171 [ForkJoinPool-1-worker-23] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+29172 [ForkJoinPool-1-worker-23] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+29172 [ForkJoinPool-1-worker-23] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+29176 [ForkJoinPool-1-worker-11] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome=96 in cache (valid until 11:56:23 29/12/2021 CET)
+29177 [ForkJoinPool-1-worker-11] DEBUG i.g.b.wdm.cache.ResolutionCache - Resolution chrome96=96.0.4664.45 in cache (valid until 08:15:41 30/12/2021 CET)
+29178 [ForkJoinPool-1-worker-11] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 96.0.4664.45 (resolved driver for Chrome 96)
+29182 [ForkJoinPool-1-worker-23] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+29183 [ForkJoinPool-1-worker-23] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+29191 [ForkJoinPool-1-worker-11] DEBUG i.g.bonigarcia.wdm.WebDriverManager - Driver chromedriver 96.0.4664.45 found in cache
+29193 [ForkJoinPool-1-worker-11] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\kgrochal\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe
+29272 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Displayed text from webelement: HUMMINGBIRD NOTEBOOK
+29279 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+29355 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+29422 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+29566 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Displayed text from webelement: -20%
+29685 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Displayed text from webelement: zł15.87
+29685 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+29986 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30022 [ForkJoinPool-1-worker-13] INFO  model.TestBase - Browser closed properly
+30022 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30049 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Displayed text from webelement: There is 1 item in your cart.
+30050 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30077 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30134 [ForkJoinPool-1-worker-27] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+30134 [ForkJoinPool-1-worker-27] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+30174 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30191 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+30191 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30256 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: MOUNTAIN FOX NOTEBOOK
+30259 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Displayed text from webelement: There is 1 item in your cart.
+30259 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30410 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: HUMMINGBIRD VECTOR
+30411 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30518 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30715 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: zł15.87
+30716 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30806 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: zł11.07
+30807 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30808 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+30809 [ForkJoinPool-1-worker-19] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+30809 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+30827 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Displayed text from webelement: zł15.87
+30828 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+31008 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: There is 1 item in your cart.
+31009 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+31102 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: PROCEED TO CHECKOUT
+31103 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+31436 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: There is 1 item in your cart.
+31436 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+31437 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Displayed text from webelement: -20%
+31470 [ForkJoinPool-1-worker-21] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+31470 [ForkJoinPool-1-worker-21] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+31471 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: There are 2 items in your cart.
+31471 [ForkJoinPool-1-worker-27] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+31471 [ForkJoinPool-1-worker-27] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+31472 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+31477 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+31489 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Typed text '1' to webelement: input-group form-control
+31605 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+31642 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: zł15.87
+31642 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+31665 [ForkJoinPool-1-worker-11] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+31665 [ForkJoinPool-1-worker-11] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+31673 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: There are 2 items in your cart.
+31673 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+31707 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+31707 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+31792 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+31793 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+31807 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+31895 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: zł22.14
+31895 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+32102 [ForkJoinPool-1-worker-15] INFO  pages.BasePage - Displayed text from webelement: (1)
+32431 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Clicked on webelement: PROCEED TO CHECKOUT
+32431 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+32510 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+32510 [ForkJoinPool-1-worker-19] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+32567 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+32568 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+32959 [ForkJoinPool-1-worker-29] INFO  pages.BasePage - Displayed text from webelement: (1)
+32966 [ForkJoinPool-1-worker-25] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+32967 [ForkJoinPool-1-worker-25] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+33221 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Clicked on webelement: CLOTHES
+33260 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+33260 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+33303 [ForkJoinPool-1-worker-21] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+33303 [ForkJoinPool-1-worker-21] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+33309 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+33512 [ForkJoinPool-1-worker-7] INFO  pages.BasePage - Displayed text from webelement: (2)
+33520 [ForkJoinPool-1-worker-11] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+33521 [ForkJoinPool-1-worker-11] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+33526 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+33654 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text '85369 Reilly Street' to webelement: form-control
+33654 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+33693 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+33841 [ForkJoinPool-1-worker-23] INFO  model.TestBase - configuration.browser.Browser initialized successfully
+33842 [ForkJoinPool-1-worker-23] INFO  configuration.WebListener - ***********************EVENTLISTENER BEFORE NAVIGATE TO ************************
+34225 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+34571 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text '53-206' to webelement: form-control
+34571 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+34606 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Clicked on webelement: CLOTHES
+34701 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Clicked on webelement: Prices drop
+34701 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+34706 [ForkJoinPool-1-worker-19] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+34757 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+34976 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+35020 [ForkJoinPool-1-worker-25] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+35020 [ForkJoinPool-1-worker-25] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+35025 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+35052 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35104 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35157 [ForkJoinPool-1-worker-23] INFO  configuration.WebListener - ***********************EVENTLISTENER AFTER NAVIGATE TO************************
+35158 [ForkJoinPool-1-worker-23] INFO  model.TestBase - Website opened at: http://146.59.32.4/
+35163 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+35185 [ForkJoinPool-1-worker-9] INFO  pages.BasePage - Typed text 'North Solfurt' to webelement: form-control
+35308 [ForkJoinPool-1-worker-19] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+35374 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: HUMMINGBIRD NOTEBOOK
+35388 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: -20%
+35457 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35504 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Typed text '2' to webelement: input-group form-control
+35515 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35516 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35666 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: zł15.87
+35666 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35785 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+35785 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35826 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: There is 1 item in your cart.
+35828 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35842 [ForkJoinPool-1-worker-7] INFO  model.TestBase - Browser closed properly
+35906 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+35906 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+35906 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35922 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: There is 1 item in your cart.
+35922 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+35982 [ForkJoinPool-1-worker-15] INFO  model.TestBase - Browser closed properly
+36032 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Typed text '3' to webelement: input-group form-control
+36046 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Clicked on webelement: Prices drop
+36046 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36071 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: -20%
+36076 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: zł15.87
+36076 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+36117 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Clicked on webelement: Prices drop
+36117 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36175 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+36199 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36228 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36259 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: ON SALE
+36275 [ForkJoinPool-1-worker-19] INFO  model.TestBase - Browser closed properly
+36275 [ForkJoinPool-1-worker-29] INFO  model.TestBase - Browser closed properly
+36295 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36312 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: -20%
+36335 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+36335 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36344 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+36344 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36396 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: -20%
+36430 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+36430 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+36434 [ForkJoinPool-1-worker-3] INFO  pages.BasePage - Displayed text from webelement: (1)
+36434 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36530 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36557 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+36557 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36627 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: zł44.16
+36628 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36641 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+36641 [ForkJoinPool-1-worker-23] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+36641 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36705 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: zł35.33
+36705 [ForkJoinPool-1-worker-25] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+36705 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36728 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: -20%
+36802 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: -20%
+36880 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36968 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+36991 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+36991 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37062 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: zł29.40
+37063 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37071 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37087 [ForkJoinPool-1-worker-3] INFO  model.TestBase - Browser closed properly
+37088 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+37088 [ForkJoinPool-1-worker-23] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+37145 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+37145 [ForkJoinPool-1-worker-25] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+37168 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37186 [ForkJoinPool-1-worker-11] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+37285 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: HUMMINGBIRD T-SHIRT
+37340 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37417 [ForkJoinPool-1-worker-11] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+37471 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+37472 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37506 [ForkJoinPool-1-worker-9] INFO  model.TestBase - Browser closed properly
+37535 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37613 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: There are 2 items in your cart.
+37615 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37656 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37675 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: HUMMINGBIRD T-SHIRT
+37708 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37721 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: There are 2 items in your cart.
+37722 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37739 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37771 [ForkJoinPool-1-worker-23] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+37816 [ForkJoinPool-1-worker-25] INFO  pages.BasePage - Displayed text from webelement: SAVE 20%
+37830 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: zł23.52
+37830 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37833 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: zł47.04
+37834 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be clickable- Timeout set to 40 seconds
+37913 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: There are 3 items in your cart.
+37913 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+37946 [ForkJoinPool-1-worker-23] INFO  handlers.CalculatorHelper - Discount price should be: 35.33, displayed discount price is: 35.33
+38016 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: There are 3 items in your cart.
+38016 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+38035 [ForkJoinPool-1-worker-25] INFO  handlers.CalculatorHelper - Discount price should be: 23.52, displayed discount price is: 23.52
+38089 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Clicked on webelement: CONTINUE SHOPPING
+38090 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Start waiting for WebElement to be visible- Timeout set to 40 seconds
+38128 [ForkJoinPool-1-worker-21] INFO  pages.BasePage - Displayed text from webelement: zł70.55
+38188 [ForkJoinPool-1-worker-11] INFO  model.TestBase - Browser closed properly
+38588 [ForkJoinPool-1-worker-23] INFO  model.TestBase - Browser closed properly
+38694 [ForkJoinPool-1-worker-25] INFO  model.TestBase - Browser closed properly
+38694 [ForkJoinPool-1-worker-27] INFO  pages.BasePage - Displayed text from webelement: (2)
+38778 [ForkJoinPool-1-worker-21] INFO  model.TestBase - Browser closed properly
+39311 [ForkJoinPool-1-worker-27] INFO  model.TestBase - Browser closed properly

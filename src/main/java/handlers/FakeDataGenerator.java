@@ -13,6 +13,18 @@ public class FakeDataGenerator {
         random = new Random();
     }
 
+    public String getRandomPLZipCode(){
+        return getRandomNumberFromRange(10,99)+"-"+getRandomNumberFromRange(100,999);
+    }
+
+    public Integer getRandomNumberFromRange(int startRange, int endRange){
+        return random.ints(startRange, endRange).findFirst().getAsInt();
+    }
+
+    public String getFakeTitle(){
+        return faker.name().prefix();
+    }
+
     public String getFakeFirstName() {
 
         return faker.name().firstName();
@@ -34,6 +46,7 @@ public class FakeDataGenerator {
     public String getFakePasswordLimit(int minChars, int maxChars) {
         return getValidatedByLimit(getFakePassword(), minChars, maxChars);
     }
+
 
     private String getValidatedByLimit(String fakerType, int minChars, int maxChars) {
         String element = "";
@@ -60,6 +73,10 @@ public class FakeDataGenerator {
 
     public String getFakeAdultAge() {
         return String.valueOf(random.ints(18, 100).findFirst().getAsInt());
+    }
+
+    public String getFakeBirthday(){
+        return DateHandler.formatDateToddMMyyyy(faker.date().birthday());
     }
 
 }

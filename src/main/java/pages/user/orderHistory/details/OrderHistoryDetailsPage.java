@@ -1,0 +1,48 @@
+package pages.user.orderHistory.details;
+
+import basketStore.Basket;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import pages.BasePage;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class OrderHistoryDetailsPage extends BasePage {
+    public OrderHistoryDetailsPage(WebDriver driver) {
+        super(driver);
+    }
+
+    @FindBy(css = "#order-products>tbody>tr")
+    private List <WebElement> orderHistoryProductLine;
+
+    @FindBy(css = "#delivery-address > address")
+    private WebElement deliveryAddress;
+
+    @FindBy(css = "#invoice-address > address")
+    private WebElement invoiceAddress;
+
+    public List<DetailsProductLine> getListOfProductLines() {
+        List<DetailsProductLine> list = new ArrayList<>();
+        for (WebElement productLine : orderHistoryProductLine) {
+            list.add(new DetailsProductLine(productLine, driver));
+        }
+        return list;
+    }
+
+    public Basket getBasket() {
+        Basket basket = new Basket();
+        for (DetailsProductLine productLine : getListOfProductLines()) {
+            basket.addOrderLineToBasket(productLine.createOrderLine());
+        }
+        return basket;
+    }
+
+    public String getDeliveryAddress() {
+        return getTextFromObject(deliveryAddress);
+    }
+    public String getInvoiceAddress() {
+        return getTextFromObject(invoiceAddress);
+    }
+}

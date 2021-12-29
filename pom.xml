@@ -14,7 +14,7 @@
         <junit.jupiter.api.version>5.7.1</junit.jupiter.api.version>
         <junit.jupiter.engine.version>5.7.1</junit.jupiter.engine.version>
         <junit.jupiter.params.version>5.7.1</junit.jupiter.params.version>
-        <selenium.java.version>4.1.0</selenium.java.version>
+        <selenium.java.version>4.0.0-alpha-1</selenium.java.version>
         <webdrivermanager.version>5.0.3</webdrivermanager.version>
         <hamcrest.version>2.2</hamcrest.version>
         <maven.surefire.plugin.version>3.0.0-M3</maven.surefire.plugin.version>
@@ -23,6 +23,8 @@
         <javafaker.version>1.0.2</javafaker.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <logback.version>1.2.3</logback.version>
+        <jackson-dataformat-yaml.verson>2.13.0</jackson-dataformat-yaml.verson>
+        <assertj-core.version>3.4.1</assertj-core.version>
 
 
 
@@ -31,9 +33,16 @@
     <dependencies>
 
         <dependency>
+            <groupId>org.assertj</groupId>
+            <artifactId>assertj-core</artifactId>
+            <version>${assertj-core.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
             <groupId>com.fasterxml.jackson.dataformat</groupId>
             <artifactId>jackson-dataformat-yaml</artifactId>
-            <version>2.13.0</version>
+            <version>${jackson-dataformat-yaml.verson}</version>
         </dependency>
 
         <dependency>
@@ -75,7 +84,7 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest</artifactId>
             <version>${hamcrest.version}</version>
-            <scope>test</scope>
+
         </dependency>
 
         <dependency>

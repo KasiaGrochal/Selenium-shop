@@ -1,18 +1,16 @@
-package pages.registrationPage;
+package pages.user;
 
+import models.User;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import pages.commons.TopMenuPage;
 import pages.BasePage;
+import pages.commons.TopMenuPage;
+
 
 import java.util.List;
 
 public class RegistrationPage extends BasePage {
-
-    Logger logger = LoggerFactory.getLogger(RegistrationPage.class);
 
     public RegistrationPage(WebDriver driver) {
         super(driver);
@@ -42,50 +40,65 @@ public class RegistrationPage extends BasePage {
     @FindBy(css = ".form-control-submit")
     private WebElement submitButton;
 
+
+    //STEP:
+    public RegistrationPage registerNewUser(User randomUser){
+        new TopMenuPage(driver).
+                goToLoginPage().
+                clickOnNoAccountRegister();
+        new RegistrationPage(driver).
+                fillInTheFormWithRandomData(randomUser).
+                clickOnPrivacyCheckBox().
+                clickOnTermsConditionsCheckBox().
+                clickOnSubmitButton();
+        return this;
+    }
+
+    public RegistrationPage fillInTheFormWithRandomData(User randomUser){
+        chooseRandomGender();
+        fiilInFirstName(randomUser.getFirstName());
+        fiilInLastName(randomUser.getLastName());
+        fiilInEmail(randomUser.getUserEmail());
+        fiilInPassword(randomUser.getUserPassword());
+        return this;
+    }
+
     public RegistrationPage chooseRandomGender() {
-        getRandomWebElementFromList(genderOptions).click();
-        logger.info("Selected random gender.");
+        clickOnCheckBox(getRandomWebElementFromList(genderOptions));
         return this;
     }
 
     public RegistrationPage fiilInFirstName(String firstName){
-        firstNameBox.sendKeys(firstName);
-        logger.info("Filled in first name box with: {}",firstName);
+        sendKeysToObject(firstNameBox,firstName);
         return this;
     }
 
     public RegistrationPage fiilInLastName(String lastName){
-        lastNameBox.sendKeys(lastName);
-        logger.info("Filled in last name box with: {}",lastName);
+        sendKeysToObject(lastNameBox,lastName);
         return this;
     }
 
     public RegistrationPage fiilInEmail(String email){
-        emailBox.sendKeys(email);
-        logger.info("Filled in email box with: {}",email);
+        sendKeysToObject(emailBox,email);
         return this;
     }
 
     public RegistrationPage fiilInPassword(String password){
-        passwordBox.sendKeys(password);
-        logger.info("Filled in password box with: {}",password);
+        sendKeysToObject(passwordBox,password);
         return this;
     }
 
     public RegistrationPage clickOnPrivacyCheckBox(){
-        customerPrivacyCheckBox.click();
-        logger.info("Clicked on agree to privacy policy checkbox");
+        clickOnCheckBox(customerPrivacyCheckBox);
         return this;
     }
 
     public RegistrationPage clickOnTermsConditionsCheckBox(){
-        acceptTermsCheckBox.click();
-        logger.info("Clicked on agree to terms and conditions checkbox");
+        clickOnCheckBox(acceptTermsCheckBox);
         return this;
     }
     public TopMenuPage clickOnSubmitButton(){
-        submitButton.click();
-        logger.info("Clicked on submit button");
+        clickOnButton(submitButton);
         return new TopMenuPage(driver);
     }
 }

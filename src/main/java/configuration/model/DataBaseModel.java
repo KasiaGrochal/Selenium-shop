@@ -1,41 +1,25 @@
 package configuration.model;
 
-import java.util.HashMap;
+import com.fasterxml.jackson.annotation.JsonAnyGetter;
+import com.fasterxml.jackson.annotation.JsonAnySetter;
+
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public class DataBaseModel {
-    public String dbName;
-    public String host;
-    public String user;
-    public String dbPassword;
-    public boolean active;
+    boolean active;
+    Map<String, Object> dbProperties = new LinkedHashMap<>();
 
     public boolean isActive() {
         return active;
     }
 
-    public String getDbName() {
-        return dbName;
+    @JsonAnySetter
+    void setDbProperties(String key, Object value) {
+        dbProperties.put(key, value);
     }
-
-    public String getHost() {
-        return host;
-    }
-
-    public String getUser() {
-        return user;
-    }
-
-    public String getDbPassword() {
-        return dbPassword;
-    }
-
-    public Map<String, String> getDataBaseProperties() {
-        Map<String, String> properties = new HashMap<>();
-        properties.put("dbName", getDbName());
-        properties.put("host", getHost());
-        properties.put("user", getUser());
-        properties.put("dbPassword", getDbPassword());
-        return properties;
+    @JsonAnyGetter
+    public Map<String, Object> getDbProperties() {
+        return dbProperties;
     }
 }
