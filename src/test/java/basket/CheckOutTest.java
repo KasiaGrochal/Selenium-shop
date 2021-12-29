@@ -7,6 +7,7 @@ import handlers.UserFactory;
 import model.Pages;
 import models.Address;
 import models.User;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -18,7 +19,7 @@ public class CheckOutTest extends Pages {
     @Tag("checkOut")
     @Tag("regressionSmall")
     void checkOutTest() {
-
+        SoftAssertions soft = new SoftAssertions();
         int quantity = new FakeDataGenerator().getRandomNumberFromRange(1, 3);
         User randomUser = new UserFactory().getRandomUser();
         Address address = new AddressFactory().getRandomAddressPoland();
@@ -43,19 +44,19 @@ public class CheckOutTest extends Pages {
                 closePopUp().
                 clickOnTermsCheckBox().
                 clickOnPlaceOrder();
-        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderConfirmationPage.getBasket());
+        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderConfirmationPage.getBasket());
         assertThat(orderConfirmationPage.getTrimmedDeliveryMethod()).contains(deliveryMethod);
         assertThat(orderConfirmationPage.getTrimmedPaymentMethod()).isEqualTo(paymentMethod);
         String referenceNumber = orderConfirmationPage.getTrimmedReferenceNumber();
         footerPage.
                 clickOnOrdersButton();
         assertThat(orderHistoryPage.checkIfOrderIsOnTheList(referenceNumber)).isEqualTo(true);
-        assertThat(orderHistoryPage.checkIfOrderLineIsCorrect(referenceNumber, currentBasket,paymentMethod)).isEqualTo(true);
+        soft.assertThat(orderHistoryPage.checkIfOrderLineIsCorrect(referenceNumber, currentBasket, paymentMethod)).isEqualTo(true);
         orderHistoryPage.
                 clickOnDetails(referenceNumber);
-        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderHistoryDetailsPage.getBasket());
+        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderHistoryDetailsPage.getBasket());
         assertThat(postAddress).isEqualTo(orderHistoryDetailsPage.getDeliveryAddress());
         assertThat(postAddress).isEqualTo(orderHistoryDetailsPage.getInvoiceAddress());
-
+        soft.assertAll();
     }
 }

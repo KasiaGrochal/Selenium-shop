@@ -5,10 +5,9 @@ import basketStore.OrderLine;
 import basketStore.Product;
 import handlers.FakeDataGenerator;
 import model.Pages;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-
-import static org.assertj.core.api.Assertions.assertThat;
 
 public class ShoppingCartTest extends Pages {
 
@@ -18,6 +17,7 @@ public class ShoppingCartTest extends Pages {
     void validateShoppingCartPopUpDisplayedInfo() {
         Basket currentBasket = new Basket();
         int randomQuantity = new FakeDataGenerator().getRandomNumberFromRange(1, 5);
+        SoftAssertions soft = new SoftAssertions();
 
         for (int i = 0; i < 1; i++) {
             topMenuPage.
@@ -27,15 +27,13 @@ public class ShoppingCartTest extends Pages {
             OrderLine orderLine = new OrderLine(new Product(productDetailsPage.getProductName(), productDetailsPage.getDiscountPriceAsBigDecimal()), randomQuantity);
             productDetailsPage.
                     addSingleProductToBasket(currentBasket, randomQuantity);
-            assertThat(orderLine).
-                    isEqualToComparingFieldByFieldRecursively(shoppingCartPopUpPage.getOrderLineInfo());
-            assertThat(shoppingCartPopUpPage.getThereIsXItemsInfoAsInt()).
-                    isEqualTo(currentBasket.getBasketTotalQuantity());
-            assertThat(shoppingCartPopUpPage.getTotalProductsValueAsBigDecimal()).
-                    isEqualTo(currentBasket.getBasketTotalCost());
+            soft.assertThat(orderLine).isEqualToComparingFieldByFieldRecursively(shoppingCartPopUpPage.getOrderLineInfo());
+            soft.assertThat(shoppingCartPopUpPage.getThereIsXItemsInfoAsInt()).isEqualTo(currentBasket.getBasketTotalQuantity());
+            soft.assertThat(shoppingCartPopUpPage.getTotalProductsValueAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
             shoppingCartPopUpPage.
                     clickOnContinueShoppingButton();
-            assertThat(topMenuPage.getBasketProductCount()).isEqualTo(currentBasket.getBasketTotalQuantity());
+            soft.assertThat(topMenuPage.getBasketProductCount()).isEqualTo(currentBasket.getBasketTotalQuantity());
+            soft.assertAll();
         }
 
     }

@@ -3,6 +3,7 @@ package basket;
 import basketStore.Basket;
 import handlers.FakeDataGenerator;
 import model.Pages;
+import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.basket.basketSummary.OrderLinePage;
@@ -16,7 +17,7 @@ public class BasketTest extends Pages {
     @Tag("basket")
     @Tag("regressionSmall")
     void validateAddRemoveBasketFunctionality() {
-
+        SoftAssertions soft = new SoftAssertions();
         int quantity = new FakeDataGenerator().getRandomNumberFromRange(1, 5);
         Basket currentBasket = new Basket();
         int orderLineIndex = 0;
@@ -25,28 +26,28 @@ public class BasketTest extends Pages {
                 addRandomProductsToBasket(currentBasket, 5, quantity);
         topMenuPage.
                 clickOnBasketIcon();
-        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
-        assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
+        soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         basketPage.
                 setOrderLineQuantity("5", orderLineIndex, currentBasket);
-        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
-        assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
+        soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
 
         basketPage.
                 increaseOrderLineQuantityByClick(currentBasket, orderLineIndex);
-        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
-        assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
+        soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         basketPage.
                 decreaseOrderLineQuantityByClick(currentBasket, orderLineIndex);
-        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
-        assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
+        soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         for (OrderLinePage orderLine : basketPage.getListOfOrderLines()) {
             basketPage.
                     clickOnTrashIcon(currentBasket, orderLineIndex);
-            assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+            soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         }
         assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
-
+        soft.assertAll();
     }
 }
 
