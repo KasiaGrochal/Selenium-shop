@@ -1,5 +1,6 @@
 package pages.user;
 
+import models.User;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,6 +40,13 @@ public class LoginPage extends BasePage {
         logIn(userFactory.getRandomUser().getUserEmail(), userFactory.getRandomUser().getUserPassword());
         return this;
     }
+    public LoginPage logInUser(User user) {
+        sendKeysToObject(emailBox, user.getUserEmail());
+        sendKeysToObject(passwordBox, user.getUserPassword());
+        clickOnButton(logInButton);
+        return this;
+    }
+
 
     public LoginPage logIn(String email, String password) {
         sendKeysToObject(emailBox, email);
@@ -48,6 +56,7 @@ public class LoginPage extends BasePage {
     }
 
     public String getAlertMessage() {
+        waitForWebElementToBeVisable(alertMessage);
         return getTextFromObject(alertMessage);
     }
 

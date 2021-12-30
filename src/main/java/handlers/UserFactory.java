@@ -18,4 +18,13 @@ public class UserFactory {
                 build();
     }
 
+    public User getExistingUser() {
+        return new User.Builder().
+                firstName(System.getProperty("existingName")).
+                lastName(System.getProperty("existingLastName")).
+                userEmail(System.getProperty("existingEmail")).
+                userPassword(System.getProperty("existingPassword")).
+                build();
+    }
+
 }
