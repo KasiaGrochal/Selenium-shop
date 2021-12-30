@@ -28,6 +28,8 @@ environment:
     discountPercentageValue: SAVE 20%
     deliveryOption: TesterSii
     paymentMethod: Bank transfer
+    maxProductQuantityCheckOut: 3
+    maxProductQuantityBasket: 5
 #    active: true
 
   test2:

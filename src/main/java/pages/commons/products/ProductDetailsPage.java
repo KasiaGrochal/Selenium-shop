@@ -2,6 +2,7 @@ package pages.commons.products;
 
 import basketStore.Basket;
 import handlers.CalculatorHelper;
+import handlers.FakeDataGenerator;
 import handlers.FormatTextHandler;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -95,9 +96,10 @@ public class ProductDetailsPage extends BasePage {
 
 
     //STEP:
-    public ProductDetailsPage addRandomProductsToBasket(Basket basket, int repeat, int quantity) {
+    public ProductDetailsPage addRandomProductsToBasket(Basket basket, int repeat, int quantityMax) {
         for (int i = 0; i < repeat; i++) {
             goToRandomProduct();
+            int quantity = new FakeDataGenerator().getRandomNumberFromRange(1, quantityMax);
             addSingleProductToBasket(basket, quantity);
             new ShoppingCartPopUpPage(driver).
                     clickOnContinueShoppingButton();

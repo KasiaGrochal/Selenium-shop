@@ -14,7 +14,6 @@ public class ShoppingCartTest extends Pages {
     @Tag("regressionBig")
     void validateShoppingCartPopUpDisplayedInfo() {
         Basket currentBasket = new Basket();
-        int randomQuantity = new FakeDataGenerator().getRandomNumberFromRange(1, 5);
         SoftAssertions soft = new SoftAssertions();
 
         for (int i = 0; i < 3; i++) {
@@ -22,6 +21,7 @@ public class ShoppingCartTest extends Pages {
                     goToRandomCategory();
             productsGridPage.
                     clickOnRandomProduct();
+            int randomQuantity = new FakeDataGenerator().getRandomNumberFromRange(1, 5);
             productDetailsPage.
                     addSingleProductToBasket(currentBasket, randomQuantity);
             String productName =shoppingCartPopUpPage.getProductName();

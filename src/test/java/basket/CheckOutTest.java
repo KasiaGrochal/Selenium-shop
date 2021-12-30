@@ -2,7 +2,6 @@ package basket;
 
 import basketStore.Basket;
 import handlers.AddressFactory;
-import handlers.FakeDataGenerator;
 import handlers.UserFactory;
 import model.Pages;
 import models.Address;
@@ -20,7 +19,7 @@ public class CheckOutTest extends Pages {
     @Tag("regressionSmall")
     void checkOutTest() {
         SoftAssertions soft = new SoftAssertions();
-        int quantity = new FakeDataGenerator().getRandomNumberFromRange(1, 3);
+        int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityCheckOut"));
         User randomUser = new UserFactory().getRandomUser();
         Address address = new AddressFactory().getRandomAddressPoland();
         Basket currentBasket = new Basket();
@@ -32,7 +31,7 @@ public class CheckOutTest extends Pages {
         registrationPage.
                 registerNewUser(randomUser);
         productDetailsPage.
-                addRandomProductsToBasket(currentBasket, 4, quantity).
+                addRandomProductsToBasket(currentBasket, 4, maxProductQuantity).
                 addRandomProductToBasketAndGoToCheckOut(currentBasket);
         checkOutPage.
                 fillInAddressDetails(address).

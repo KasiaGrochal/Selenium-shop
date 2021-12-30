@@ -1,7 +1,6 @@
 package basket;
 
 import basketStore.Basket;
-import handlers.FakeDataGenerator;
 import model.Pages;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Tag;
@@ -18,12 +17,12 @@ public class BasketTest extends Pages {
     @Tag("regressionSmall")
     void validateAddRemoveBasketFunctionality() {
         SoftAssertions soft = new SoftAssertions();
-        int quantity = new FakeDataGenerator().getRandomNumberFromRange(1, 5);
+        int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityBasket"));
         Basket currentBasket = new Basket();
         int orderLineIndex = 0;
 
         productDetailsPage.
-                addRandomProductsToBasket(currentBasket, 5, quantity);
+                addRandomProductsToBasket(currentBasket, 5, maxProductQuantity);
         topMenuPage.
                 clickOnBasketIcon();
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
