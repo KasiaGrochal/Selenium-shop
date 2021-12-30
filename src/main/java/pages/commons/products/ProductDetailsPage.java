@@ -99,7 +99,8 @@ public class ProductDetailsPage extends BasePage {
     public ProductDetailsPage addRandomProductsToBasket(Basket basket, int repeat, int quantityMax) {
         for (int i = 0; i < repeat; i++) {
             goToRandomProduct();
-            int quantity = new FakeDataGenerator().getRandomNumberFromRange(1, quantityMax);
+            int minProductQuantity= Integer.parseInt(System.getProperty("minProductQuantity"));
+            int quantity = new FakeDataGenerator().getRandomNumberFromRange(minProductQuantity, quantityMax);
             addSingleProductToBasket(basket, quantity);
             new ShoppingCartPopUpPage(driver).
                     clickOnContinueShoppingButton();

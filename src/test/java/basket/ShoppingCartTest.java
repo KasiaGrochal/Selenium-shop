@@ -15,13 +15,15 @@ public class ShoppingCartTest extends Pages {
     void validateShoppingCartPopUpDisplayedInfo() {
         Basket currentBasket = new Basket();
         SoftAssertions soft = new SoftAssertions();
+        int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityCart"));
+        int minProductQuantity = Integer.parseInt(System.getProperty("minProductQuantity"));
 
         for (int i = 0; i < 3; i++) {
             topMenuPage.
                     goToRandomCategory();
             productsGridPage.
                     clickOnRandomProduct();
-            int randomQuantity = new FakeDataGenerator().getRandomNumberFromRange(1, 5);
+            int randomQuantity = new FakeDataGenerator().getRandomNumberFromRange(minProductQuantity, maxProductQuantity);
             productDetailsPage.
                     addSingleProductToBasket(currentBasket, randomQuantity);
             String productName =shoppingCartPopUpPage.getProductName();
