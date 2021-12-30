@@ -31,22 +31,11 @@ public class LoginPage extends BasePage {
     @FindBy(css = ".no-account a")
     private WebElement noAccountRegisterButton;
 
-    public LoginPage logInExistingUser(){
-        logIn(System.getProperty("existingEmail"), System.getProperty("existingPassword"));
-        return this;
-    }
 
-    public LoginPage logInNonExistingUser(){
-        logIn(userFactory.getRandomUser().getUserEmail(), userFactory.getRandomUser().getUserPassword());
-        return this;
-    }
     public LoginPage logInUser(User user) {
-        sendKeysToObject(emailBox, user.getUserEmail());
-        sendKeysToObject(passwordBox, user.getUserPassword());
-        clickOnButton(logInButton);
+        logIn(user.getUserEmail(), user.getUserPassword());
         return this;
     }
-
 
     public LoginPage logIn(String email, String password) {
         sendKeysToObject(emailBox, email);
@@ -56,7 +45,6 @@ public class LoginPage extends BasePage {
     }
 
     public String getAlertMessage() {
-        waitForWebElementToBeVisable(alertMessage);
         return getTextFromObject(alertMessage);
     }
 

@@ -26,7 +26,6 @@ public class LoginTest extends Pages {
                 goToLoginPage();
         loginPage.
                 logInUser(nonExistingUser);
-
         assertThat(loginPage.getAlertMessage(), equalTo(System.getProperty("failedLoginMessage")));
     }
 
@@ -41,14 +40,12 @@ public class LoginTest extends Pages {
                 goToLoginPage();
         loginPage.
                 logInUser(existingUser).
-
                 navigateToTopMenuPage();
         assertThat(topMenuPage.isUserLoggedIn(), equalTo(true));
 
         topMenuPage.
                 clickOnAccountNameButton().
                 logOut();
-
         assertThat(topMenuPage.isUserLoggedIn(), equalTo(false));
     }
 }
