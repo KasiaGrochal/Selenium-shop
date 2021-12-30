@@ -20,6 +20,7 @@ public class CheckOutTest extends Pages {
     void checkOutTest() {
         SoftAssertions soft = new SoftAssertions();
         int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityCheckOut"));
+        int repeatTimes = Integer.parseInt(System.getProperty("addProductRepeatCheckout"));
         User randomUser = new UserFactory().getRandomUser();
         Address address = new AddressFactory().getRandomAddressPoland();
         Basket currentBasket = new Basket();
@@ -31,7 +32,7 @@ public class CheckOutTest extends Pages {
         registrationPage.
                 registerNewUser(randomUser);
         productDetailsPage.
-                addRandomProductsToBasket(currentBasket, 4, maxProductQuantity).
+                addRandomProductsToBasket(currentBasket, repeatTimes, maxProductQuantity).
                 addRandomProductToBasketAndGoToCheckOut(currentBasket);
         checkOutPage.
                 fillInAddressDetails(address).

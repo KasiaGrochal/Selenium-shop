@@ -29,6 +29,7 @@ environment:
     deliveryOption: TesterSii
     paymentMethod: Bank transfer
     maxProductQuantityCheckOut: 3
+    addProductRepeatCheckout: 5
     maxProductQuantityBasket: 5
     addProductRepeatBasket: 5
     modifyQuantityBasket: 5
