@@ -18,17 +18,19 @@ public class BasketTest extends Pages {
     void validateAddRemoveBasketFunctionality() {
         SoftAssertions soft = new SoftAssertions();
         int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityBasket"));
+        String modifyQuantityTo = System.getProperty("modifyQuantityBasket");
+        int repeatTimes = Integer.parseInt(System.getProperty("addProductRepeatBasket"));
         Basket currentBasket = new Basket();
         int orderLineIndex = 0;
 
         productDetailsPage.
-                addRandomProductsToBasket(currentBasket, 5, maxProductQuantity);
+                addRandomProductsToBasket(currentBasket, repeatTimes, maxProductQuantity);
         topMenuPage.
                 clickOnBasketIcon();
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         basketPage.
-                setOrderLineQuantity("5", orderLineIndex, currentBasket);
+                setOrderLineQuantity(modifyQuantityTo, orderLineIndex, currentBasket);
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
 

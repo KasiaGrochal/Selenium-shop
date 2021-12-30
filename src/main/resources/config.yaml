@@ -30,6 +30,8 @@ environment:
     paymentMethod: Bank transfer
     maxProductQuantityCheckOut: 3
     maxProductQuantityBasket: 5
+    addProductRepeatBasket: 5
+    modifyQuantityBasket: 5
     maxProductQuantityCart: 5
     minProductQuantity: 1
 #    active: true
