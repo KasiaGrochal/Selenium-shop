@@ -33,6 +33,7 @@ environment:
     maxProductQuantityBasket: 5
     addProductRepeatBasket: 5
     modifyQuantityBasket: 5
+    orderLineToModifyBasket: 0
     maxProductQuantityCart: 5
     minProductQuantity: 1
 #    active: true

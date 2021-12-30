@@ -21,7 +21,7 @@ public class BasketTest extends Pages {
         String modifyQuantityTo = System.getProperty("modifyQuantityBasket");
         int repeatTimes = Integer.parseInt(System.getProperty("addProductRepeatBasket"));
         Basket currentBasket = new Basket();
-        int orderLineIndex = 0;
+        int orderLineToModify = Integer.parseInt(System.getProperty("orderLineToModifyBasket"));
 
         productDetailsPage.
                 addRandomProductsToBasket(currentBasket, repeatTimes, maxProductQuantity);
@@ -30,21 +30,21 @@ public class BasketTest extends Pages {
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         basketPage.
-                setOrderLineQuantity(modifyQuantityTo, orderLineIndex, currentBasket);
+                setOrderLineQuantity(modifyQuantityTo, orderLineToModify, currentBasket);
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
 
         basketPage.
-                increaseOrderLineQuantityByClick(currentBasket, orderLineIndex);
+                increaseOrderLineQuantityByClick(currentBasket, orderLineToModify);
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         basketPage.
-                decreaseOrderLineQuantityByClick(currentBasket, orderLineIndex);
+                decreaseOrderLineQuantityByClick(currentBasket, orderLineToModify);
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         for (OrderLinePage orderLine : basketPage.getListOfOrderLines()) {
             basketPage.
-                    clickOnTrashIcon(currentBasket, orderLineIndex);
+                    clickOnTrashIcon(currentBasket, orderLineToModify);
             soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         }
         assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
