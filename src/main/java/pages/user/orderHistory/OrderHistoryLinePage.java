@@ -2,6 +2,7 @@ package pages.user.orderHistory;
 
 import basketStore.Basket;
 import handlers.DateHandler;
+import handlers.FormatTextHandler;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -10,6 +11,8 @@ import org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pages.BasePage;
+
+import java.math.BigDecimal;
 
 public class OrderHistoryLinePage extends BasePage {
 
@@ -52,6 +55,10 @@ public class OrderHistoryLinePage extends BasePage {
         return getTextFromObject(orderTotalPrice);
     }
 
+    public BigDecimal getOrderTotalPriceAsBigDecimal(){
+        return FormatTextHandler.getBigDecimalFromString(getOrderTotalPrice());
+    }
+
     public String getOrderPaymentType() {
         return getTextFromObject(orderPaymentType);
     }
@@ -74,8 +81,8 @@ public class OrderHistoryLinePage extends BasePage {
 
     public boolean isTotalPriceCorrect(Basket basket) {
         logger.info("Total Price should be: {}",basket.getBasketTotalCost());
-        logger.info("Order Total Price is displayed Correctly: {}", getOrderTotalPrice().equals(basket.getBasketTotalCost()));
-        return getOrderTotalPrice().equals(basket.getBasketTotalCost());
+        logger.info("Order Total Price is displayed Correctly: {}", getOrderTotalPriceAsBigDecimal().equals(basket.getBasketTotalCost()));
+        return getOrderTotalPriceAsBigDecimal().equals(basket.getBasketTotalCost());
     }
 
     public boolean isPaymentTypeAsChosen(String chosenPayment) {
