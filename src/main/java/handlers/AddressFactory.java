@@ -18,7 +18,7 @@ public class AddressFactory {
                 city(faker.address().city()).
                 street(faker.address().streetAddress()).
                 zipCode(faker.address().zipCode()).
-                country("Poland").
+                country(System.getProperty("country")).
                 build();
     }
 
