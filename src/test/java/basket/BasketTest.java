@@ -7,8 +7,6 @@ import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import pages.basket.basketSummary.OrderLinePage;
 
-import static org.assertj.core.api.Assertions.assertThat;
-
 
 public class BasketTest extends Pages {
 
@@ -47,7 +45,7 @@ public class BasketTest extends Pages {
                     clickOnTrashIcon(currentBasket, orderLineToModify);
             soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
         }
-        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
+        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertAll();
     }
 }
