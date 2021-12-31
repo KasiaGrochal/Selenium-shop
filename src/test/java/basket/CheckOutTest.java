@@ -20,7 +20,7 @@ public class CheckOutTest extends Pages {
         int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityCheckOut"));
         int repeatTimes = Integer.parseInt(System.getProperty("addProductRepeatCheckout"));
         User randomUser = new UserFactory().getRandomUser();
-        Address address = new AddressFactory().getRandomAddressPoland();
+        Address address = new AddressFactory().getRandomAddress();
         Basket currentBasket = new Basket();
         String postAddress = randomUser.getFirstAndLastName() + "\n" + address.toString();
         String deliveryMethod = System.getProperty("deliveryOption");

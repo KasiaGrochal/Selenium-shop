@@ -3,30 +3,21 @@ package handlers;
 import com.github.javafaker.Faker;
 import models.Address;
 
+import java.util.Locale;
+
 public class AddressFactory {
 
     private Faker faker;
-    private FakeDataGenerator faker2;
 
     public AddressFactory() {
-        faker = new Faker();
-        faker2=new FakeDataGenerator();
+        faker = new Faker(new Locale("PL"));
     }
 
     public Address getRandomAddress() {
         return new Address.Builder().
                 city(faker.address().city()).
                 street(faker.address().streetAddress()).
-                zipCode(faker2.getRandomPLZipCode()).
-                country(faker.address().country()).
-                build();
-    }
-
-    public Address getRandomAddressPoland() {
-        return new Address.Builder().
-                city(faker.address().city()).
-                street(faker.address().streetAddress()).
-                zipCode(faker2.getRandomPLZipCode()).
+                zipCode(faker.address().zipCode()).
                 country("Poland").
                 build();
     }
