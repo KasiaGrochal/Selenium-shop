@@ -45,19 +45,19 @@ public class BasketPage extends BasePage {
         int lineQuantity = basket.getBasketLists().get(orderLineIndex).getQuantity();
         int previousQuantity = basket.getBasketTotalQuantity();
         int difference = Integer.parseInt(quantity) - lineQuantity;
-        getListOfOrderLines().get(orderLineIndex).setProductQuantityTo(quantity, basket.getBasketLists().get(orderLineIndex),basket);
+        getListOfOrderLines().get(orderLineIndex).setProductQuantityTo(quantity, basket.getBasketLists().get(orderLineIndex));
         waitUntilQuantityIsUpdated(previousQuantity, difference);
     }
 
     public void increaseOrderLineQuantityByClick(Basket basket, int orderLineIndex) {
         int previousQuantity = basket.getBasketTotalQuantity();
-        getListOfOrderLines().get(orderLineIndex).clickOnIncreaseQuantityArrow(basket.getBasketLists().get(orderLineIndex), basket);
+        getListOfOrderLines().get(orderLineIndex).clickOnIncreaseQuantityArrow(basket.getBasketLists().get(orderLineIndex));
         waitUntilQuantityIsUpdated(previousQuantity, 1);
     }
 
     public void decreaseOrderLineQuantityByClick(Basket basket, int orderLineIndex) {
         int previousQuantity = basket.getBasketTotalQuantity();
-        getListOfOrderLines().get(orderLineIndex).clickOnDecreaseQuantityArrow(basket.getBasketLists().get(orderLineIndex),basket);
+        getListOfOrderLines().get(orderLineIndex).clickOnDecreaseQuantityArrow(basket.getBasketLists().get(orderLineIndex));
         waitUntilQuantityIsUpdated(previousQuantity, -1);
     }
 

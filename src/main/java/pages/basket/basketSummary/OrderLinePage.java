@@ -48,7 +48,7 @@ public class OrderLinePage extends BasePage {
         return this;
     }
 
-    public OrderLinePage clickOnIncreaseQuantityArrow(OrderLine orderLine, Basket basket){
+    public OrderLinePage clickOnIncreaseQuantityArrow(OrderLine orderLine){
         noStaleClick(increaseProductQuantityArrow);
         orderLine.setQuantity(orderLine.getQuantity()+1);
         orderLine.updateTotalCost();
@@ -57,7 +57,7 @@ public class OrderLinePage extends BasePage {
 
 
 
-    public OrderLinePage clickOnDecreaseQuantityArrow(OrderLine orderLine, Basket basket){
+    public OrderLinePage clickOnDecreaseQuantityArrow(OrderLine orderLine){
         noStaleClick(decreaseProductQuantityArrow);
         orderLine.setQuantity(orderLine.getQuantity()-1);
         orderLine.updateTotalCost();
@@ -80,7 +80,7 @@ public class OrderLinePage extends BasePage {
         return productQuantity.getAttribute("value");
     }
 
-    public OrderLinePage setProductQuantityTo(String value, OrderLine orderLine, Basket basket){
+    public OrderLinePage setProductQuantityTo(String value, OrderLine orderLine){
         action.sendKeys(productQuantity, Keys.BACK_SPACE).build().perform();
         sendKeysToObject(productQuantity,value);
         action.sendKeys(productQuantity, Keys.ENTER).build().perform();
