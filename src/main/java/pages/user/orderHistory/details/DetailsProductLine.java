@@ -31,6 +31,14 @@ public class DetailsProductLine extends BasePage {
     @FindBy(css = "td:nth-of-type(4)")
     private WebElement productTotalPrice;
 
+    public String getProductTotalPrice(){
+        return getTextFromObject(productTotalPrice);
+    }
+
+    public BigDecimal getProductTotalPriceAsBigDecimal(){
+        return FormatTextHandler.getBigDecimalFromString(getProductTotalPrice());
+    }
+
     public String getProductName(){
         return getTextFromObject(productName);
     }
@@ -53,7 +61,9 @@ public class DetailsProductLine extends BasePage {
 
     public OrderLine createOrderLine() {
         Product product = new Product(getTrimmedProductName(), getProductUnitPriceAsBigDecimal());
-        return new OrderLine(product, getProductQuantityAsInt());
+        OrderLine orderLine = new OrderLine(product,getProductQuantityAsInt());
+        orderLine.setTotalCost(getProductTotalPriceAsBigDecimal());
+        return orderLine;
     }
 
     public String getTrimmedProductName(){

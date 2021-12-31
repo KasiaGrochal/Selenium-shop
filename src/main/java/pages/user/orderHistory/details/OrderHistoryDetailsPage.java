@@ -1,11 +1,13 @@
 package pages.user.orderHistory.details;
 
 import basketStore.Basket;
+import handlers.FormatTextHandler;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.BasePage;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,6 +24,17 @@ public class OrderHistoryDetailsPage extends BasePage {
 
     @FindBy(css = "#invoice-address > address")
     private WebElement invoiceAddress;
+
+    @FindBy(css = "tfoot>tr:nth-of-type(3)>td:nth-of-type(2)")
+    private WebElement totalOrderCost;
+
+    public String getTotalOrderCost(){
+        return getTextFromObject(totalOrderCost);
+    }
+
+    public BigDecimal getTotalOrderCostAsBigDecimal(){
+        return FormatTextHandler.getBigDecimalFromString(getTotalOrderCost());
+    }
 
     public List<DetailsProductLine> getListOfProductLines() {
         List<DetailsProductLine> list = new ArrayList<>();

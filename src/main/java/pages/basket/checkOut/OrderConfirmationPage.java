@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import pages.BasePage;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,6 +29,17 @@ public class OrderConfirmationPage extends BasePage {
 
     @FindBy(css = "#order-details>ul>li:nth-of-type(3)")
     private WebElement orderDeliveryMethod;
+
+    @FindBy(css = ".total-value>td:nth-of-type(2)")
+    private WebElement totalOrderCost;
+
+    public String getTotalOrderCost(){
+        return getTextFromObject(totalOrderCost);
+    }
+
+    public BigDecimal getTotalOrderCostAsBigDecimal(){
+        return FormatTextHandler.getBigDecimalFromString(getTotalOrderCost());
+    }
 
 
     public List<OrderConfirmationLinePage> getListOfOrderConfirmationLines() {

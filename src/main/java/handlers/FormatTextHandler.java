@@ -14,7 +14,7 @@ public class FormatTextHandler {
         return Integer.parseInt(string.replaceAll("[\\D]", ""));
     }
     public static BigDecimal getBigDecimalFromString(String string){
-       return new BigDecimal(string.replace("zł", ""));
+       return new BigDecimal(string.replace("$", ""));
     }
 
     public static String trimProductName(String string){

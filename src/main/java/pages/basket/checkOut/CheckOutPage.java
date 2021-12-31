@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import pages.basket.basketSummary.BasketPage;
 
 import java.util.ArrayList;
@@ -94,8 +95,23 @@ public class CheckOutPage extends BasketPage {
         return this;
     }
 
+    public CheckOutPage fillInAddressDetailsForCountry(Address address, String country) {
+        sendKeysToObject(streetInput, address.getStreet());
+        sendKeysToObject(zipCodeInput, address.getZipCode());
+        sendKeysToObject(cityInput, address.getCity());
+        selectSpecificCountry(country);
+        noStaleClick(addressContinueButton);
+        return this;
+    }
+
     public CheckOutPage selectRandomCountry() {
         selectRandomOption(selectCountry, 1);
+        return this;
+    }
+
+    public CheckOutPage selectSpecificCountry(String country) {
+        Select select = new Select(selectCountry);
+        select.selectByVisibleText(country);
         return this;
     }
 

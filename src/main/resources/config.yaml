@@ -36,6 +36,7 @@ environment:
     orderLineToModifyBasket: 0
     maxProductQuantityCart: 5
     minProductQuantity: 1
+    country: Poland
 #    active: true
 
   test2:

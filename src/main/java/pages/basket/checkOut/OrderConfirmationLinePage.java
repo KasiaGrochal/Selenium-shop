@@ -70,7 +70,9 @@ public class OrderConfirmationLinePage extends BasePage {
 
     public OrderLine createOrderLine() {
         Product product = new Product(getTrimmedProductName(), getSingleProductPriceAsBigDecimal());
-        return new OrderLine(product, getProductQuantityAsInt());
+        OrderLine orderLine = new OrderLine(product,getProductQuantityAsInt());
+        orderLine.setTotalCost(getProductTotalPriceAsBigDecimal());
+        return orderLine;
     }
 
 

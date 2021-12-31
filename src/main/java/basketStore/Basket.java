@@ -22,6 +22,10 @@ public class Basket {
         totalCost = getBasketTotalCost();
     }
 
+    public void setTotalCost(BigDecimal totalCost) {
+        this.totalCost = totalCost;
+    }
+
     public void addProductToBasket(String productName, BigDecimal price, int quantity){
         for (OrderLine orderLine: basketLists){
             if (isProductAlreadyInTheBasket(productName,orderLine.getProduct())){

@@ -6,7 +6,6 @@ import handlers.UserFactory;
 import model.Pages;
 import models.Address;
 import models.User;
-import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -18,7 +17,6 @@ public class CheckOutTest extends Pages {
     @Tag("checkOut")
     @Tag("regressionSmall")
     void checkOutTest() {
-        SoftAssertions soft = new SoftAssertions();
         int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityCheckOut"));
         int repeatTimes = Integer.parseInt(System.getProperty("addProductRepeatCheckout"));
         User randomUser = new UserFactory().getRandomUser();
@@ -27,6 +25,7 @@ public class CheckOutTest extends Pages {
         String postAddress = randomUser.getFirstAndLastName() + "\n" + address.toString();
         String deliveryMethod = System.getProperty("deliveryOption");
         String paymentMethod = System.getProperty("paymentMethod");
+        String country= System.getProperty("country");
 
 
         registrationPage.
@@ -35,7 +34,7 @@ public class CheckOutTest extends Pages {
                 addRandomProductsToBasket(currentBasket, repeatTimes, maxProductQuantity).
                 addRandomProductToBasketAndGoToCheckOut(currentBasket);
         checkOutPage.
-                fillInAddressDetails(address).
+                fillInAddressDetailsForCountry(address,country).
                 selectDeliveryMethod(deliveryMethod).
                 selectPaymentMethod(paymentMethod).
                 clickOnTermsOfService();
@@ -44,19 +43,19 @@ public class CheckOutTest extends Pages {
                 closePopUp().
                 clickOnTermsCheckBox().
                 clickOnPlaceOrder();
-        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderConfirmationPage.getBasket());
+        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderConfirmationPage.getBasket());
         assertThat(orderConfirmationPage.getTrimmedDeliveryMethod()).contains(deliveryMethod);
         assertThat(orderConfirmationPage.getTrimmedPaymentMethod()).isEqualTo(paymentMethod);
         String referenceNumber = orderConfirmationPage.getTrimmedReferenceNumber();
         footerPage.
                 clickOnOrdersButton();
         assertThat(orderHistoryPage.checkIfOrderIsOnTheList(referenceNumber)).isEqualTo(true);
-        soft.assertThat(orderHistoryPage.checkIfOrderLineIsCorrect(referenceNumber, currentBasket, paymentMethod)).isEqualTo(true);
+        assertThat(orderHistoryPage.checkIfOrderLineIsCorrect(referenceNumber, currentBasket, paymentMethod)).isEqualTo(true);
         orderHistoryPage.
                 clickOnDetails(referenceNumber);
-        soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderHistoryDetailsPage.getBasket());
+        assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderHistoryDetailsPage.getBasket());
         assertThat(postAddress).isEqualTo(orderHistoryDetailsPage.getDeliveryAddress());
         assertThat(postAddress).isEqualTo(orderHistoryDetailsPage.getInvoiceAddress());
-        soft.assertAll();
+
     }
 }
