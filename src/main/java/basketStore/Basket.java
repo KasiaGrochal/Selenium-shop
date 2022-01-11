@@ -12,9 +12,9 @@ public class Basket {
         return basketLists;
     }
 
-    public List<OrderLine> basketLists;
-    public int totalQuantity;
-    public BigDecimal totalCost;
+   private List<OrderLine> basketLists;
+   private int totalQuantity;
+   private BigDecimal totalCost;
 
     public Basket() {
         basketLists = new ArrayList<>();
