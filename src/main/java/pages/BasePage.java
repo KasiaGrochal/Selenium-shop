@@ -1,6 +1,5 @@
 package pages;
 
-import handlers.UserFactory;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
@@ -24,7 +23,7 @@ public abstract class BasePage {
     protected Actions action;
     protected JavascriptExecutor jsExecutor;
     protected TakesScreenshot screenshot;
-    protected UserFactory userFactory;
+
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
