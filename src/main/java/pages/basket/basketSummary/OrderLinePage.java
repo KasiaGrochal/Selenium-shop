@@ -93,7 +93,7 @@ public class OrderLinePage extends BasePage {
         return FormatTextHandler.getIntFromString(getProductQuantity());
     }
 
-    public OrderLine createOrderLine() {
+    public OrderLine toOrderLine() {
         Product product = new Product(getProductName(), getProductPriceAsBigDecimal());
         return new OrderLine(product, getProductQuantityAsInt());
     }

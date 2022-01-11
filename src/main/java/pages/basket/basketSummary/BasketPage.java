@@ -79,7 +79,7 @@ public class BasketPage extends BasePage {
     public Basket getBasket() {
         Basket basket = new Basket();
         for (OrderLinePage orderLine : getListOfOrderLines()) {
-            basket.addOrderLineToBasket(orderLine.createOrderLine());
+            basket.addOrderLineToBasket(orderLine.toOrderLine());
         }
         return basket;
     }

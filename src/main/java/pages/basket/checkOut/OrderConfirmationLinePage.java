@@ -68,7 +68,7 @@ public class OrderConfirmationLinePage extends BasePage {
         return FormatTextHandler.getBigDecimalFromString(getProductTotalPrice());
     }
 
-    public OrderLine createOrderLine() {
+    public OrderLine toOrderLine() {
         Product product = new Product(getTrimmedProductName(), getSingleProductPriceAsBigDecimal());
         OrderLine orderLine = new OrderLine(product,getProductQuantityAsInt());
         orderLine.setTotalCost(getProductTotalPriceAsBigDecimal());

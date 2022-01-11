@@ -53,7 +53,7 @@ public class OrderConfirmationPage extends BasePage {
     public Basket getBasket() {
         Basket basket = new Basket();
         for (OrderConfirmationLinePage orderLine : getListOfOrderConfirmationLines()) {
-            basket.addOrderLineToBasket(orderLine.createOrderLine());
+            basket.addOrderLineToBasket(orderLine.toOrderLine());
         }
         return basket;
     }
