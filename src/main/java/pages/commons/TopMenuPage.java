@@ -5,8 +5,6 @@ import handlers.FormatTextHandler;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Coordinates;
-import org.openqa.selenium.interactions.Locatable;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.events.internal.EventFiringMouse;
 import org.slf4j.Logger;
@@ -72,14 +70,6 @@ public class TopMenuPage extends BasePage {
         waitForElementToBeClickableFluent(basketProductsCount);
         clickOnButton(basketProductsCount);
         return this;
-    }
-
-    public void mouseHover(WebElement webElement) {
-        eventFiringMouse = new EventFiringMouse(driver, webListener);
-        Locatable item = (Locatable) webElement;
-        Coordinates coordinates = item.getCoordinates();
-        eventFiringMouse.mouseMove(coordinates);
-        logger.info("MouseHover on webelement: {}", webElement.getText());
     }
 
     public Integer getBasketProductCount() {

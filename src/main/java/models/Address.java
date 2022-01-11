@@ -1,5 +1,8 @@
 package models;
 
+import lombok.Data;
+
+@Data
 public class Address {
     private String street;
     private String city;
@@ -11,22 +14,6 @@ public class Address {
         this.city = builder.city;
         this.zipCode = builder.zipCode;
         this.country = builder.country;
-    }
-
-    public String getStreet() {
-        return street;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public String getZipCode() {
-        return zipCode;
-    }
-
-    public String getCountry() {
-        return country;
     }
 
     @Override

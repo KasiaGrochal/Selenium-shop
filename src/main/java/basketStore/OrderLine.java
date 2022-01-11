@@ -1,12 +1,14 @@
 package basketStore;
 
-import java.math.BigDecimal;
+import lombok.Data;
 
+import java.math.BigDecimal;
+@Data
 public class OrderLine {
 
-    public Product product;
-    public int quantity;
-    public BigDecimal totalCost;
+    private Product product;
+    private int quantity;
+    private BigDecimal totalCost;
 
 
     public OrderLine(Product product, int quantity) {
@@ -19,23 +21,4 @@ public class OrderLine {
         this.totalCost = product.getPrice().multiply(BigDecimal.valueOf(getQuantity()));
     }
 
-    public BigDecimal getTotalCost() {
-        return totalCost;
-    }
-
-    public Product getProduct() {
-        return product;
-    }
-
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    public int getQuantity() {
-        return quantity;
-    }
-
-    public void setTotalCost(BigDecimal totalCost) {
-        this.totalCost = totalCost;
-    }
 }

@@ -95,8 +95,6 @@ public class BasketPage extends BasePage {
 
     public void waitUntilQuantityIsUpdated(int previousQuantity, int increase) {
         webDriverwait.until(x -> getTotalQuantityAsInteger().equals(previousQuantity + increase));
-
-
     }
 
 }
