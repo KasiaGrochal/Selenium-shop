@@ -29,6 +29,7 @@ public class PricesDropTest extends Pages {
             assertThat(product.isDiscountPriceVisible(), equalTo(true));
             assertThat(product.isDiscountCalculatedCorrectly(), equalTo(true));
         }
+
         productsGridPage.
                 clickOnRandomProduct();
         assertThat(productDetailsPage.getDiscountPercentageInfo(), equalTo(System.getProperty("discountPercentageValue")));

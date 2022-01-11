@@ -39,14 +39,17 @@ public class CategoriesTest extends Pages {
             for (int j = 1; j < topMenuPage.getListOfSubcategories(i).size(); j++) {
                 WebElement currentCategory = listOfCategories.get(i);
                 List<WebElement> listOfSubCategories = topMenuPage.getListOfSubcategories(i);
+
                 topMenuPage.
                         moveToCategoryName(currentCategory);
                 WebElement currentSubCategory = listOfSubCategories.get(j);
                 String subCategoryName = currentSubCategory.getText();
+
                 topMenuPage.click(currentSubCategory);
                 assertThat(categoriesPage.getCategoryName(), equalTo(subCategoryName));
                 assertThat(filtersPage.isFilterBoxVisible(), equalTo(true));
                 assertThat(productsGridPage.getAmountOfDisplayedProducts(), equalTo(categoriesPage.getTotalProductsInfoAsInt()));
+
                 topMenuPage.moveToCategoryName(topMenuPage.getListOfCategories().get(i));
             }
         }

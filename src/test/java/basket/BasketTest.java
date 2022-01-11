@@ -27,6 +27,7 @@ public class BasketTest extends Pages {
                 clickOnBasketIcon();
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+
         basketPage.
                 setOrderLineQuantity(modifyQuantityTo, orderLineToModify, currentBasket);
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
@@ -36,10 +37,12 @@ public class BasketTest extends Pages {
                 increaseOrderLineQuantityByClick(currentBasket, orderLineToModify);
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+
         basketPage.
                 decreaseOrderLineQuantityByClick(currentBasket, orderLineToModify);
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(basketPage.getBasket());
         soft.assertThat(basketPage.getTotalPriceTaxInclAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+
         for (OrderLinePage orderLine : basketPage.getListOfOrderLines()) {
             basketPage.
                     clickOnTrashIcon(currentBasket, orderLineToModify);

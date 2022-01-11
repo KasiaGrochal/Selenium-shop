@@ -39,6 +39,7 @@ public class CheckOutTest extends Pages {
                 selectPaymentMethod(paymentMethod).
                 clickOnTermsOfService();
         soft.assertThat(checkOutPage.isPopUpTextEmpty()).isEqualTo(false);
+
         checkOutPage.
                 closePopUp().
                 clickOnTermsCheckBox().
@@ -47,10 +48,12 @@ public class CheckOutTest extends Pages {
         soft.assertThat(orderConfirmationPage.getTrimmedDeliveryMethod()).contains(deliveryMethod);
         soft.assertThat(orderConfirmationPage.getTrimmedPaymentMethod()).isEqualTo(paymentMethod);
         String referenceNumber = orderConfirmationPage.getTrimmedReferenceNumber();
+
         footerPage.
                 clickOnOrdersButton();
         soft.assertThat(orderHistoryPage.checkIfOrderIsOnTheList(referenceNumber)).isEqualTo(true);
         soft.assertThat(orderHistoryPage.checkIfOrderLineIsCorrect(referenceNumber, currentBasket, paymentMethod)).isEqualTo(true);
+
         orderHistoryPage.
                 clickOnDetails(referenceNumber);
         soft.assertThat(currentBasket).isEqualToComparingFieldByFieldRecursively(orderHistoryDetailsPage.getBasket());

@@ -30,6 +30,7 @@ public class ShoppingCartTest extends Pages {
             soft.assertThat(currentBasket.getOrderLineByProductName(productName)).isEqualToComparingFieldByFieldRecursively(shoppingCartPopUpPage.getOrderLineInfo());
             soft.assertThat(shoppingCartPopUpPage.getThereIsXItemsInfoAsInt()).isEqualTo(currentBasket.getBasketTotalQuantity());
             soft.assertThat(shoppingCartPopUpPage.getTotalProductsValueAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
+
             shoppingCartPopUpPage.
                     clickOnContinueShoppingButton();
             soft.assertThat(topMenuPage.getBasketProductCount()).isEqualTo(currentBasket.getBasketTotalQuantity());
