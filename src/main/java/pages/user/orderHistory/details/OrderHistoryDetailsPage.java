@@ -29,7 +29,7 @@ public class OrderHistoryDetailsPage extends BasePage {
     private WebElement totalOrderCost;
 
     public String getTotalOrderCost(){
-        return getTextFromObject(totalOrderCost);
+        return getText(totalOrderCost);
     }
 
     public BigDecimal getTotalOrderCostAsBigDecimal(){
@@ -53,9 +53,9 @@ public class OrderHistoryDetailsPage extends BasePage {
     }
 
     public String getDeliveryAddress() {
-        return getTextFromObject(deliveryAddress);
+        return getText(deliveryAddress);
     }
     public String getInvoiceAddress() {
-        return getTextFromObject(invoiceAddress);
+        return getText(invoiceAddress);
     }
 }

@@ -39,8 +39,7 @@ public class LoginTest extends Pages {
         topMenuPage.
                 goToLoginPage();
         loginPage.
-                logInUser(existingUser).
-                navigateToTopMenuPage();
+                logInUser(existingUser);
         assertThat(topMenuPage.isUserLoggedIn(), equalTo(true));
 
         topMenuPage.

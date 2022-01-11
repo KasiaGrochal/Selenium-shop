@@ -69,22 +69,22 @@ public class RegistrationPage extends BasePage {
     }
 
     public RegistrationPage fiilInFirstName(String firstName){
-        sendKeysToObject(firstNameBox,firstName);
+        send(firstNameBox,firstName);
         return this;
     }
 
     public RegistrationPage fiilInLastName(String lastName){
-        sendKeysToObject(lastNameBox,lastName);
+        send(lastNameBox,lastName);
         return this;
     }
 
     public RegistrationPage fiilInEmail(String email){
-        sendKeysToObject(emailBox,email);
+        send(emailBox,email);
         return this;
     }
 
     public RegistrationPage fiilInPassword(String password){
-        sendKeysToObject(passwordBox,password);
+        send(passwordBox,password);
         return this;
     }
 
@@ -98,7 +98,7 @@ public class RegistrationPage extends BasePage {
         return this;
     }
     public TopMenuPage clickOnSubmitButton(){
-        clickOnButton(submitButton);
+        click(submitButton);
         return new TopMenuPage(driver);
     }
 }

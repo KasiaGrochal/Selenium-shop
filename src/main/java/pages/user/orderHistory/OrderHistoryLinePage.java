@@ -44,15 +44,15 @@ public class OrderHistoryLinePage extends BasePage {
 
     public String getReferenceNumber() {
         waitForElementToBeVisibleFluent(referenceNumber);
-        return getTextFromObject(referenceNumber);
+        return getText(referenceNumber);
     }
 
     public String getOrderDate() {
-        return getTextFromObject(orderDate);
+        return getText(orderDate);
     }
 
     public String getOrderTotalPrice() {
-        return getTextFromObject(orderTotalPrice);
+        return getText(orderTotalPrice);
     }
 
     public BigDecimal getOrderTotalPriceAsBigDecimal(){
@@ -60,11 +60,11 @@ public class OrderHistoryLinePage extends BasePage {
     }
 
     public String getOrderPaymentType() {
-        return getTextFromObject(orderPaymentType);
+        return getText(orderPaymentType);
     }
 
     public String getOrderStatus() {
-        return getTextFromObject(orderStatus);
+        return getText(orderStatus);
     }
 
     public boolean checkIfOrderHistoryLineIsCorrect(Basket basket, String chosenPaymentMethod) {
@@ -96,7 +96,7 @@ public class OrderHistoryLinePage extends BasePage {
     }
 
     public OrderHistoryLinePage clickOnDetailsButton() {
-        clickOnButton(orderDetails);
+        click(orderDetails);
         return this;
     }
 

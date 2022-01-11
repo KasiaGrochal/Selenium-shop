@@ -19,11 +19,11 @@ public class CategoriesPage extends BasePage {
 
 
     public String getCategoryName(){
-        return getTextFromObject(categoryName);
+        return getText(categoryName);
     }
 
     public String getTotalProductsInfo(){
-        return getTextFromObject(productsCountInfo);
+        return getText(productsCountInfo);
     }
 
     public Integer getTotalProductsInfoAsInt(){

@@ -32,7 +32,7 @@ public class DetailsProductLine extends BasePage {
     private WebElement productTotalPrice;
 
     public String getProductTotalPrice(){
-        return getTextFromObject(productTotalPrice);
+        return getText(productTotalPrice);
     }
 
     public BigDecimal getProductTotalPriceAsBigDecimal(){
@@ -40,11 +40,11 @@ public class DetailsProductLine extends BasePage {
     }
 
     public String getProductName(){
-        return getTextFromObject(productName);
+        return getText(productName);
     }
 
     public String getProductQuantity(){
-        return getTextFromObject(productQuantity);
+        return getText(productQuantity);
     }
 
     public Integer getProductQuantityAsInt(){
@@ -52,7 +52,7 @@ public class DetailsProductLine extends BasePage {
     }
 
     public String getProductUnitPrice(){
-        return getTextFromObject(productUnitPrice);
+        return getText(productUnitPrice);
     }
 
     public BigDecimal getProductUnitPriceAsBigDecimal(){

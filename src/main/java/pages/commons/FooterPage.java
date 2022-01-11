@@ -17,12 +17,12 @@ public class FooterPage extends BasePage {
     private WebElement orders;
 
     public FooterPage clickOnPricesDropButton(){
-        clickOnButton(pricesDropButton);
+        click(pricesDropButton);
         return this;
     }
 
     public FooterPage clickOnOrdersButton(){
-        clickOnButton(orders);
+        click(orders);
         return this;
     }
 }

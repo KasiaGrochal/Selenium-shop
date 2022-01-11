@@ -13,6 +13,6 @@ public class OnSalePage extends BasePage{
     private WebElement header;
 
     public String getHeaderText(){
-        return getTextFromObject(header);
+        return getText(header);
     }
 }

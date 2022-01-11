@@ -20,7 +20,7 @@ public class CategoriesTest extends Pages {
 
         for (int i = 0; i < listOfCategories.size(); i++) {
             WebElement currentCategory = listOfCategories.get(i);
-            String categoryName = topMenuPage.getTextFromObject(currentCategory);
+            String categoryName = topMenuPage.getText(currentCategory);
             topMenuPage.
                     clickOnCategory(currentCategory);
             assertThat(categoriesPage.getCategoryName(), equalTo(categoryName));
@@ -43,7 +43,7 @@ public class CategoriesTest extends Pages {
                         moveToCategoryName(currentCategory);
                 WebElement currentSubCategory = listOfSubCategories.get(j);
                 String subCategoryName = currentSubCategory.getText();
-                topMenuPage.clickOnButton(currentSubCategory);
+                topMenuPage.click(currentSubCategory);
                 assertThat(categoriesPage.getCategoryName(), equalTo(subCategoryName));
                 assertThat(filtersPage.isFilterBoxVisible(), equalTo(true));
                 assertThat(productsGridPage.getAmountOfDisplayedProducts(), equalTo(categoriesPage.getTotalProductsInfoAsInt()));

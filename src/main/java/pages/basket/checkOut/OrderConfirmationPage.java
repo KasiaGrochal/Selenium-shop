@@ -34,7 +34,7 @@ public class OrderConfirmationPage extends BasePage {
     private WebElement totalOrderCost;
 
     public String getTotalOrderCost(){
-        return getTextFromObject(totalOrderCost);
+        return getText(totalOrderCost);
     }
 
     public BigDecimal getTotalOrderCostAsBigDecimal(){
@@ -59,15 +59,15 @@ public class OrderConfirmationPage extends BasePage {
     }
 
     public String getOrderReferenceNumber() {
-        return getTextFromObject(orderReferenceNumber);
+        return getText(orderReferenceNumber);
     }
 
     public String getOrderPaymentMethod() {
-        return getTextFromObject(orderPaymentMethod);
+        return getText(orderPaymentMethod);
     }
 
     public String getOrderDeliveryMethod() {
-        return getTextFromObject(orderDeliveryMethod);
+        return getText(orderDeliveryMethod);
     }
     public String getTrimmedPaymentMethod(){
         return FormatTextHandler.trimText(getOrderPaymentMethod());

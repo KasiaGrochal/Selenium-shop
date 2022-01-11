@@ -42,7 +42,7 @@ public class ShoppingCartPopUpPage extends BasePage {
 
     public String getProductQuantity(){
         waitForElementToBeVisibleFluent(productQuantity);
-       return getTextFromObject(productQuantity);
+       return getText(productQuantity);
     }
 
     public Integer getProductQuantityAsInteger(){
@@ -51,14 +51,14 @@ public class ShoppingCartPopUpPage extends BasePage {
 
     public ShoppingCartPopUpPage clickOnProceedToCheckOut() {
         waitForAttributeToBe(popUpDialog,"style","display: block;");
-        clickOnButton(proceedToCheckOutButton);
+        click(proceedToCheckOutButton);
         return this;
     }
 
     public String getThereIsXItemsInfo() {
         waitForAttributeToBe(popUpDialog,"style","display: block;");
         waitForElementToBeVisibleFluent(thereIsXItems);
-        return getTextFromObject(thereIsXItems);
+        return getText(thereIsXItems);
     }
 
     public Integer getThereIsXItemsInfoAsInt() {
@@ -67,7 +67,7 @@ public class ShoppingCartPopUpPage extends BasePage {
 
     public String getTotalProductsValue() {
         waitForElementToBeVisibleFluent(totalValue);
-        return getTextFromObject(totalValue);
+        return getText(totalValue);
     }
 
     public BigDecimal getTotalProductsValueAsBigDecimal() {
@@ -76,19 +76,19 @@ public class ShoppingCartPopUpPage extends BasePage {
 
     public String getProductName() {
         waitForElementToBeVisibleFluent(productName);
-        return getTextFromObject(productName);
+        return getText(productName);
     }
 
     public ProductDetailsPage clickOnContinueShoppingButton() {
         waitForAttributeToBe(popUpDialog,"style","display: block;");
-        clickOnButton(continueShoppingButton);
+        click(continueShoppingButton);
         waitForAttributeToBe(popUpDialog,"style","display: none;");
         return new ProductDetailsPage(driver);
     }
 
     public String getProductPrice() {
         waitForElementToBeVisibleFluent(productPrice);
-        return getTextFromObject(productPrice);
+        return getText(productPrice);
     }
 
     public BigDecimal getProductPriceAsBigDecimal() {

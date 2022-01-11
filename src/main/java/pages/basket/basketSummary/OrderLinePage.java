@@ -65,11 +65,11 @@ public class OrderLinePage extends BasePage {
     }
 
     public String getProductName() {
-        return getTextFromObject(productName);
+        return getText(productName);
     }
 
     public String getProductPrice() {
-        return getTextFromObject(productPrice);
+        return getText(productPrice);
     }
 
     public BigDecimal getProductPriceAsBigDecimal() {
@@ -82,7 +82,7 @@ public class OrderLinePage extends BasePage {
 
     public OrderLinePage setProductQuantityTo(String value, OrderLine orderLine){
         action.sendKeys(productQuantity, Keys.BACK_SPACE).build().perform();
-        sendKeysToObject(productQuantity,value);
+        send(productQuantity,value);
         action.sendKeys(productQuantity, Keys.ENTER).build().perform();
         orderLine.setQuantity(Integer.parseInt(value));
         orderLine.updateTotalCost();

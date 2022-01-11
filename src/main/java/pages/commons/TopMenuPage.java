@@ -57,7 +57,7 @@ public class TopMenuPage extends BasePage {
     private List<WebElement> categoriesList;
 
     public TopMenuPage clickOnCategory(WebElement category){
-        clickOnButton(category);
+        click(category);
         return this;
     }
 
@@ -68,13 +68,13 @@ public class TopMenuPage extends BasePage {
 
     public TopMenuPage clickOnBasketIcon() {
         waitForElementToBeClickableFluent(basketProductsCount);
-        clickOnButton(basketProductsCount);
+        click(basketProductsCount);
         return this;
     }
 
     public Integer getBasketProductCount() {
-        webDriverwait.until(x->!getTextFromObject(basketProductsCount).isEmpty());
-        return FormatTextHandler.getIntFromString(getTextFromObject(basketProductsCount));
+        webDriverwait.until(x->!getText(basketProductsCount).isEmpty());
+        return FormatTextHandler.getIntFromString(getText(basketProductsCount));
     }
 
     public List<WebElement> getListOfCategories() {
@@ -84,7 +84,7 @@ public class TopMenuPage extends BasePage {
 
     public TopMenuPage goToRandomCategory() {
         waitForWebElementToBeClickable(categoryArt);
-        clickOnButton(getRandomWebElementFromList(getListOfCategories()));
+        click(getRandomWebElementFromList(getListOfCategories()));
         return this;
     }
 
@@ -98,7 +98,7 @@ public class TopMenuPage extends BasePage {
     public boolean checkIfSearchedProductIsOnTheDropdownList(String productName) {
         waitForWebElementToBeVisable(elementFromDropdown);
         for (WebElement webElement : searchDropdownList) {
-            if (getTextFromObject(webElement).contains(productName)) {
+            if (getText(webElement).contains(productName)) {
                 return true;
             }
         }
@@ -106,18 +106,18 @@ public class TopMenuPage extends BasePage {
     }
 
     public TopMenuPage clickOnSearchIcon() {
-        clickOnButton(searchIcon);
+        click(searchIcon);
         return this;
     }
 
 
     public TopMenuPage typeInSearchBox(String text) {
-        sendKeysToObject(searchBox, text);
+        send(searchBox, text);
         return this;
     }
 
     public LoginPage goToLoginPage() {
-        clickOnButton(loginButton);
+        click(loginButton);
         return new LoginPage(driver);
     }
 

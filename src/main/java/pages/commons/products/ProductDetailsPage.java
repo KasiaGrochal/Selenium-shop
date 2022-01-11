@@ -40,7 +40,7 @@ public class ProductDetailsPage extends BasePage {
 
 
     public String getDiscountPercentageInfo() {
-        return getTextFromObject(discountPercentageInfo);
+        return getText(discountPercentageInfo);
     }
 
     public boolean isRegularPriceDisplayed() {
@@ -52,7 +52,7 @@ public class ProductDetailsPage extends BasePage {
     }
 
     public String getRegularPrice() {
-        return getTextFromObject(regularPriceInfo);
+        return getText(regularPriceInfo);
     }
 
     private BigDecimal getRegularPriceAsBigDecimal() {
@@ -60,8 +60,8 @@ public class ProductDetailsPage extends BasePage {
     }
 
     public String getDiscountPrice() {
-        webDriverwait.until(x -> !getTextFromObject(discountPriceInfo).isEmpty());
-        return getTextFromObject(discountPriceInfo);
+        webDriverwait.until(x -> !getText(discountPriceInfo).isEmpty());
+        return getText(discountPriceInfo);
     }
 
     public BigDecimal getDiscountPriceAsBigDecimal() {
@@ -73,14 +73,14 @@ public class ProductDetailsPage extends BasePage {
     }
 
     public String getProductName() {
-        return getTextFromObject(productName);
+        return getText(productName);
     }
 
     public ProductDetailsPage addSingleProductToBasket(Basket basket, int quantity) {
         while (!addToCartButton.isEnabled()){
             goToRandomProduct();
         }
-        sendKeysToObject(quantityInput, String.valueOf(quantity));
+        send(quantityInput, String.valueOf(quantity));
         basket.addProductToBasket(getProductName(), getDiscountPriceAsBigDecimal(), quantity);
         noStaleClick(addToCartButton);
         return this;

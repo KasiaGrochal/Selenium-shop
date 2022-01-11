@@ -19,7 +19,7 @@ public class FiltersPage extends BasePage {
     private List<WebElement> listOfFilters;
 
     public boolean isFilterBoxVisible(){
-        return getTextFromObject(filterBox).equals(System.getProperty("filterBoxText"));
+        return getText(filterBox).equals(System.getProperty("filterBoxText"));
     }
 
 }

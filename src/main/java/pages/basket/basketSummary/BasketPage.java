@@ -29,12 +29,12 @@ public class BasketPage extends BasePage {
     private WebElement proceedToCheckOutButton;
 
     public BasketPage clickOnProceedToCheckOut() {
-        clickOnButton(proceedToCheckOutButton);
+        click(proceedToCheckOutButton);
         return this;
     }
 
     public Integer getTotalQuantityAsInteger() {
-        return FormatTextHandler.getIntFromString(getTextFromObject(totalQuantity));
+        return FormatTextHandler.getIntFromString(getText(totalQuantity));
     }
 
     public Integer getOrderLineQuantity(int orderLineIndex){
@@ -85,7 +85,7 @@ public class BasketPage extends BasePage {
     }
 
     public String getTotalPriceTaxIncl() {
-        return getTextFromObject(totalPriceTaxIncl);
+        return getText(totalPriceTaxIncl);
     }
 
 

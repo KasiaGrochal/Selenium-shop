@@ -38,18 +38,18 @@ public class LoginPage extends BasePage {
     }
 
     public LoginPage logIn(String email, String password) {
-        sendKeysToObject(emailBox, email);
-        sendKeysToObject(passwordBox, password);
-        clickOnButton(logInButton);
+        send(emailBox, email);
+        send(passwordBox, password);
+        click(logInButton);
         return this;
     }
 
     public String getAlertMessage() {
-        return getTextFromObject(alertMessage);
+        return getText(alertMessage);
     }
 
     public RegistrationPage clickOnNoAccountRegister() {
-        clickOnButton(noAccountRegisterButton);
+        click(noAccountRegisterButton);
         return new RegistrationPage(driver);
     }
 

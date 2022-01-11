@@ -34,7 +34,7 @@ public class OrderConfirmationLinePage extends BasePage {
 
     public String getProductName(){
         waitForElementToBeVisibleFluent(productName);
-        return getTextFromObject(productName);
+        return getText(productName);
     }
 
     public String getTrimmedProductName(){
@@ -43,7 +43,7 @@ public class OrderConfirmationLinePage extends BasePage {
 
     public String getSingleProductPrice(){
         waitForElementToBeVisibleFluent(productName);
-        return getTextFromObject(singleItemPrice);
+        return getText(singleItemPrice);
     }
 
     public BigDecimal getSingleProductPriceAsBigDecimal(){
@@ -52,7 +52,7 @@ public class OrderConfirmationLinePage extends BasePage {
 
     public String getProductQuantity(){
         waitForElementToBeVisibleFluent(productName);
-        return getTextFromObject(itemQuantity);
+        return getText(itemQuantity);
     }
 
     public Integer getProductQuantityAsInt(){
@@ -61,7 +61,7 @@ public class OrderConfirmationLinePage extends BasePage {
 
     public String getProductTotalPrice(){
         waitForElementToBeVisibleFluent(productName);
-        return getTextFromObject(itemTotalPrice);
+        return getText(itemTotalPrice);
     }
 
     public BigDecimal getProductTotalPriceAsBigDecimal(){

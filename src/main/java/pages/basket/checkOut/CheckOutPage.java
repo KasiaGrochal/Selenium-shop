@@ -87,18 +87,18 @@ public class CheckOutPage extends BasketPage {
 
 
     public CheckOutPage fillInAddressDetails(Address address) {
-        sendKeysToObject(streetInput, address.getStreet());
-        sendKeysToObject(zipCodeInput, address.getZipCode());
-        sendKeysToObject(cityInput, address.getCity());
+        send(streetInput, address.getStreet());
+        send(zipCodeInput, address.getZipCode());
+        send(cityInput, address.getCity());
         selectRandomCountry();
         noStaleClick(addressContinueButton);
         return this;
     }
 
     public CheckOutPage fillInAddressDetailsForCountry(Address address, String country) {
-        sendKeysToObject(streetInput, address.getStreet());
-        sendKeysToObject(zipCodeInput, address.getZipCode());
-        sendKeysToObject(cityInput, address.getCity());
+        send(streetInput, address.getStreet());
+        send(zipCodeInput, address.getZipCode());
+        send(cityInput, address.getCity());
         selectSpecificCountry(country);
         noStaleClick(addressContinueButton);
         return this;
@@ -129,7 +129,7 @@ public class CheckOutPage extends BasketPage {
     }
 
     public CheckOutPage clickOnTermsOfService(){
-        clickOnButton(termsOfServiceLinkButton);
+        click(termsOfServiceLinkButton);
         return this;
     }
 
@@ -139,7 +139,7 @@ public class CheckOutPage extends BasketPage {
     }
 
     public CheckOutPage closePopUp(){
-        clickOnButton(closeModalButton);
+        click(closeModalButton);
         return this;
     }
 
@@ -150,7 +150,7 @@ public class CheckOutPage extends BasketPage {
     }
 
     public CheckOutPage clickOnPlaceOrder(){
-        clickOnButton(placeOrderButton);
+        click(placeOrderButton);
         return this;
     }
 

@@ -23,7 +23,7 @@ public class DeliveryMethodsPage extends BasePage {
     private WebElement deliveryRadioButton;
 
     public String getDeliveryMethodName() {
-        return getTextFromObject(deliveryName);
+        return getText(deliveryName);
     }
 
     public void clickOnDeliveryMethod() {

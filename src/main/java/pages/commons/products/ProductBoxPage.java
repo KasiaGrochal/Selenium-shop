@@ -32,22 +32,22 @@ public class ProductBoxPage extends BasePage {
     private WebElement discountPrice;
 
     public String getProductName() {
-        return getTextFromObject(productName);
+        return getText(productName);
     }
 
     public String getDiscountFlagValue(){
-        return getTextFromObject(discountFlag);
+        return getText(discountFlag);
     }
 
     public String getRegularPrice(){
-        return getTextFromObject(regularPrice);
+        return getText(regularPrice);
     }
     private BigDecimal getRegularPriceAsBigDecimal(){
         return FormatTextHandler.getBigDecimalFromString(getRegularPrice());
     }
 
     public String getDiscountPrice(){
-        return getTextFromObject(discountPrice);
+        return getText(discountPrice);
     }
 
     private BigDecimal getDiscountPriceAsBigDecimal(){
