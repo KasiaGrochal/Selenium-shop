@@ -59,7 +59,7 @@ public class DetailsProductLine extends BasePage {
         return FormatTextHandler.getBigDecimalFromString(getProductUnitPrice());
     }
 
-    public OrderLine createOrderLine() {
+    public OrderLine toOrderLine() {
         Product product = new Product(getTrimmedProductName(), getProductUnitPriceAsBigDecimal());
         OrderLine orderLine = new OrderLine(product,getProductQuantityAsInt());
         orderLine.setTotalCost(getProductTotalPriceAsBigDecimal());

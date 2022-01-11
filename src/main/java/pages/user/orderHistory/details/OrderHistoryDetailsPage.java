@@ -47,7 +47,7 @@ public class OrderHistoryDetailsPage extends BasePage {
     public Basket getBasket() {
         Basket basket = new Basket();
         for (DetailsProductLine productLine : getListOfProductLines()) {
-            basket.addOrderLineToBasket(productLine.createOrderLine());
+            basket.addOrderLineToBasket(productLine.toOrderLine());
         }
         return basket;
     }
