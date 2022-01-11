@@ -15,11 +15,11 @@ public class BasketTest extends Pages {
     @Tag("regressionSmall")
     void validateAddRemoveBasketFunctionality() {
         SoftAssertions soft = new SoftAssertions();
-        int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityBasket"));
-        String modifyQuantityTo = System.getProperty("modifyQuantityBasket");
-        int repeatTimes = Integer.parseInt(System.getProperty("addProductRepeatBasket"));
+        int maxProductQuantity = 5;
+        String modifyQuantityTo = "5";
+        int repeatTimes = 5;
         Basket currentBasket = new Basket();
-        int orderLineToModify = Integer.parseInt(System.getProperty("orderLineToModifyBasket"));
+        int orderLineToModify = 0;
 
         productDetailsPage.
                 addRandomProductsToBasket(currentBasket, repeatTimes, maxProductQuantity);

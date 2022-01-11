@@ -15,8 +15,8 @@ public class ShoppingCartTest extends Pages {
     void validateShoppingCartPopUpDisplayedInfo() {
         Basket currentBasket = new Basket();
         SoftAssertions soft = new SoftAssertions();
-        int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityCart"));
-        int minProductQuantity = Integer.parseInt(System.getProperty("minProductQuantity"));
+        int maxProductQuantity = 5;
+        int minProductQuantity = 1;
 
         for (int i = 0; i < 3; i++) {
             topMenuPage.

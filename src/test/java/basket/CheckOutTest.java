@@ -17,8 +17,8 @@ public class CheckOutTest extends Pages {
     @Tag("regressionSmall")
     void checkOutTest() {
         SoftAssertions soft = new SoftAssertions();
-        int maxProductQuantity = Integer.parseInt(System.getProperty("maxProductQuantityCheckOut"));
-        int repeatTimes = Integer.parseInt(System.getProperty("addProductRepeatCheckout"));
+        int maxProductQuantity = 3;
+        int repeatTimes = 5;
         User randomUser = new UserFactory().getRandomUser();
         Address address = new AddressFactory().getRandomAddress();
         Basket currentBasket = new Basket();
