@@ -27,7 +27,8 @@
         <assertj-core.version>3.4.1</assertj-core.version>
         <lombok.version>1.18.22</lombok.version>
 
-
+                <Env_Value>test1</Env_Value>
+                <Browser_Value>chrome</Browser_Value>
 
 
     </properties>
@@ -125,7 +126,10 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${maven.surefire.plugin.version}</version>
                 <configuration>
-
+                    <systemPropertyVariables>
+                        <Env_Value>${Env_Value}</Env_Value>
+                        <Browser_Value>${Browser_Value}</Browser_Value>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
             <plugin>

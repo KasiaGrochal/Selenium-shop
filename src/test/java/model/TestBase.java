@@ -30,7 +30,7 @@ public class TestBase {
 
     @BeforeEach
     void setup() {
-        driver = browserFactory.getDriver(new BrowserProperties().getActiveBrowser());
+        driver = browserFactory.getDriver(new BrowserProperties().getBrowser());
         logger.info("configuration.browser.Browser initialized successfully");
         driver.get(System.getProperty("webUrl"));
         logger.info("Website opened at: {}", System.getProperty("webUrl"));
