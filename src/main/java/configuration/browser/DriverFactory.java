@@ -14,18 +14,25 @@ import org.openqa.selenium.ie.InternetExplorerOptions;
 public class DriverFactory {
 
     public WebDriver getDriver(Browser browser) {
+        WebDriver webDriver;
         switch (browser) {
             case CHROME:
-                return getChrome();
+                webDriver = getChrome();
+                break;
             case FIREFOX:
-                return getFirefox();
+                webDriver = getFirefox();
+                break;
             case IE:
-                return getIe();
+                webDriver = getIe();
+                break;
             case EDGE:
-                return getEdge();
+                webDriver = getEdge();
+                break;
             default:
-                return null;
+                return getChrome();
         }
+        return webDriver;
+
     }
 
     private WebDriver getEdge() {

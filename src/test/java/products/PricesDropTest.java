@@ -24,7 +24,7 @@ public class PricesDropTest extends Pages {
                 clickOnPricesDropButton();
         assertThat(onSalePage.getHeaderText(), equalTo(System.getProperty("onSaleHeaderText")));
 
-        List<ProductBoxPage> listOfProducts = new ProductsGridPage(webdriver).getListOfProducts();
+        List<ProductBoxPage> listOfProducts = new ProductsGridPage(driver).getListOfProducts();
         for (ProductBoxPage product : listOfProducts) {
             assertThat(product.getDiscountFlagValue(), equalTo(System.getProperty("discountFlagValue")));
             assertThat(product.isRegularPriceVisible(), equalTo(true));

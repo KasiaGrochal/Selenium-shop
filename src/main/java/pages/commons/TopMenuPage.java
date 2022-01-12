@@ -1,12 +1,10 @@
 package pages.commons;
 
-import configuration.WebListener;
 import handlers.FormatTextHandler;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.events.internal.EventFiringMouse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import pages.BasePage;
@@ -17,9 +15,6 @@ import java.util.List;
 
 public class TopMenuPage extends BasePage {
     Logger logger = LoggerFactory.getLogger(TopMenuPage.class);
-
-    private EventFiringMouse eventFiringMouse;
-    private WebListener webListener;
 
     public TopMenuPage(WebDriver driver) {
         super(driver);

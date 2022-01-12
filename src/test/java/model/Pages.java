@@ -39,22 +39,22 @@ public class Pages extends TestBase {
 
     @BeforeEach
     public void setUpPages() {
-        basketPage = new BasketPage(webdriver);
-        checkOutPage = new CheckOutPage(webdriver);
-        orderConfirmationPage = new OrderConfirmationPage(webdriver);
-        shoppingCartPopUpPage = new ShoppingCartPopUpPage(webdriver);
-        categoriesPage = new CategoriesPage(webdriver);
-        productDetailsPage = new ProductDetailsPage(webdriver);
-        productsGridPage = new ProductsGridPage(webdriver);
-        filtersPage = new FiltersPage(webdriver);
-        footerPage = new FooterPage(webdriver);
-        topMenuPage = new TopMenuPage(webdriver);
-        accountPage = new AccountPage(webdriver);
-        loginPage = new LoginPage(webdriver);
-        registrationPage = new RegistrationPage(webdriver);
-        onSalePage = new OnSalePage(webdriver);
-        orderHistoryPage = new OrderHistoryPage(webdriver);
-        orderHistoryDetailsPage = new OrderHistoryDetailsPage(webdriver);
+        basketPage = new BasketPage(driver);
+        checkOutPage = new CheckOutPage(driver);
+        orderConfirmationPage = new OrderConfirmationPage(driver);
+        shoppingCartPopUpPage = new ShoppingCartPopUpPage(driver);
+        categoriesPage = new CategoriesPage(driver);
+        productDetailsPage = new ProductDetailsPage(driver);
+        productsGridPage = new ProductsGridPage(driver);
+        filtersPage = new FiltersPage(driver);
+        footerPage = new FooterPage(driver);
+        topMenuPage = new TopMenuPage(driver);
+        accountPage = new AccountPage(driver);
+        loginPage = new LoginPage(driver);
+        registrationPage = new RegistrationPage(driver);
+        onSalePage = new OnSalePage(driver);
+        orderHistoryPage = new OrderHistoryPage(driver);
+        orderHistoryDetailsPage = new OrderHistoryDetailsPage(driver);
     }
 
 

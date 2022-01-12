@@ -1,24 +1,17 @@
 package configuration.model;
 
+import lombok.Data;
+
 import java.util.ArrayList;
 import java.util.List;
 
+
+@Data
 public class Environment {
-    public EnvironmentModel test1;
-    public EnvironmentModel test2;
-    public EnvironmentModel prod;
+    private EnvironmentModel test1;
+    private EnvironmentModel test2;
+    private EnvironmentModel prod;
 
-    public EnvironmentModel getTest1() {
-        return test1;
-    }
-
-    public EnvironmentModel getTest2() {
-        return test2;
-    }
-
-    public EnvironmentModel getProd() {
-        return prod;
-    }
 
     public List<EnvironmentModel> getListOfEnvironments() {
         List<EnvironmentModel> listOfEnvironments = new ArrayList<>();

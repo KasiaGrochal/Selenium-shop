@@ -1,30 +1,25 @@
 package configuration.model;
 
+import lombok.Data;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
 
+@Data
 public class DataBase {
 
     Logger logger = LoggerFactory.getLogger(DataBase.class);
 
-    public DataBaseModel postgres;
-    public DataBaseModel mySql;
+    private DataBaseModel postgres;
+    private DataBaseModel mySql;
 
-    public DataBaseModel getPostgres() {
-        return postgres;
-    }
-
-    public DataBaseModel getDbMySql() {
-        return mySql;
-    }
 
     public List<DataBaseModel> getListOfDataBase() {
         List<DataBaseModel> listOfDataBase = new ArrayList<>();
         listOfDataBase.add(getPostgres());
-        listOfDataBase.add(getDbMySql());
+        listOfDataBase.add(getMySql());
         return listOfDataBase;
     }
 }

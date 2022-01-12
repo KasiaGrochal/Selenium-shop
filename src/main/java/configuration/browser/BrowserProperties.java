@@ -10,6 +10,16 @@ public class BrowserProperties {
     public BrowserProperties() {
 
     }
+
+
+    public Browser getBrowser(){
+        try {
+            System.getProperty("Browser_Value");
+            return getRemoteBrowser();
+        } catch (NullPointerException e) {
+            return getActiveBrowser();
+        }
+    }
     public Browser getActiveBrowser(){
         Browser browser = Browser.CHROME;
         try{
@@ -19,6 +29,24 @@ public class BrowserProperties {
             return browser;
         }
         return browser;
+    }
 
+    private Browser getRemoteBrowser() {
+        switch (System.getProperty("Browser_Value")) {
+            case "chrome":
+                logger.info("Browser set remotely: CHROME");
+                return Browser.CHROME;
+            case "firefox":
+                logger.info("Browser set remotely: FIREFOX");
+                return Browser.FIREFOX;
+            case "edge":
+                logger.info("Browser set remotely: EDGE");
+                return Browser.EDGE;
+            case "IE":
+                logger.info("Browser set remotely: IE");
+                return Browser.IE;
+            default:
+                return null;
+        }
     }
 }
