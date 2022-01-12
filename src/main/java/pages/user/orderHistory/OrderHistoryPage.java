@@ -35,13 +35,8 @@ public class OrderHistoryPage extends BasePage {
         return null;
     }
 
-    public OrderHistoryPage clickOnDetails(String referenceNumber){
-        for (OrderHistoryLinePage line : getListOfOrders()) {
-            if (line.getReferenceNumber().equals(referenceNumber)) {
-                line.clickOnDetailsButton();
-                break;
-            }
-    }
+    public OrderHistoryPage clickOnDetails(String referenceNumber) {
+        getOrderLineByReferenceNumber(referenceNumber).clickOnDetailsButton();
         return this;
     }
 }
