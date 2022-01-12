@@ -1,6 +1,5 @@
 package pages.user.orderHistory;
 
-import basketStore.Basket;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -27,22 +26,13 @@ public class OrderHistoryPage extends BasePage {
         return list;
     }
 
-    public boolean checkIfOrderIsOnTheList(String referenceNumber) {
+    public OrderHistoryLinePage getOrderLineByReferenceNumber(String referenceNumber) {
         for (OrderHistoryLinePage line : getListOfOrders()) {
             if (line.getReferenceNumber().equals(referenceNumber)) {
-                return true;
+                return line;
             }
         }
-        return false;
-    }
-
-    public boolean checkIfOrderLineIsCorrect(String referenceNumber, Basket basket, String paymentMethod) {
-        for (OrderHistoryLinePage line : getListOfOrders()) {
-            if (line.getReferenceNumber().equals(referenceNumber)) {
-                return line.checkIfOrderHistoryLineIsCorrect(basket,paymentMethod);
-            }
-        }
-        return false;
+        return null;
     }
 
     public OrderHistoryPage clickOnDetails(String referenceNumber){

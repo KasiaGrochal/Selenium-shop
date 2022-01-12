@@ -2,15 +2,21 @@ package basket;
 
 import basketStore.Basket;
 import handlers.AddressFactory;
+import handlers.DateHandler;
 import handlers.UserFactory;
 import model.Pages;
 import models.Address;
 import models.User;
+import orderSummary.OrderSummary;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import pages.user.orderHistory.OrderHistoryLinePage;
 
 public class CheckOutTest extends Pages {
+    private static Logger logger = LoggerFactory.getLogger(CheckOutTest.class);
 
     @Test
     @Tag("checkOut")
@@ -26,7 +32,7 @@ public class CheckOutTest extends Pages {
         String deliveryMethod = System.getProperty("deliveryOption");
         String paymentMethod = System.getProperty("paymentMethod");
         String country= System.getProperty("country");
-
+        String orderStatus = "Awaiting bank wire payment";
 
         registrationPage.
                 registerNewUser(randomUser);
@@ -51,8 +57,10 @@ public class CheckOutTest extends Pages {
 
         footerPage.
                 clickOnOrdersButton();
-        soft.assertThat(orderHistoryPage.checkIfOrderIsOnTheList(referenceNumber)).isEqualTo(true);
-        soft.assertThat(orderHistoryPage.checkIfOrderLineIsCorrect(referenceNumber, currentBasket, paymentMethod)).isEqualTo(true);
+        soft.assertThat(checkIfOrderIsOnTheList(referenceNumber)).isEqualTo(true);
+
+        OrderSummary expectedOrderSummary = new OrderSummary(DateHandler.getCurrentDateInMMddYYYY(),currentBasket.getBasketTotalCost(),paymentMethod,orderStatus);
+        soft.assertThat(expectedOrderSummary).isEqualToComparingFieldByFieldRecursively(orderHistoryPage.getOrderLineByReferenceNumber(referenceNumber).toOrderSummary());
 
         orderHistoryPage.
                 clickOnDetails(referenceNumber);
@@ -61,4 +69,16 @@ public class CheckOutTest extends Pages {
         soft.assertThat(postAddress).isEqualTo(orderHistoryDetailsPage.getInvoiceAddress());
         soft.assertAll();
     }
+
+
+
+    private boolean checkIfOrderIsOnTheList(String referenceNumber) {
+        for (OrderHistoryLinePage line : orderHistoryPage.getListOfOrders()) {
+            if (line.getReferenceNumber().equals(referenceNumber)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
