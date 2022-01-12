@@ -95,7 +95,7 @@ public class ShoppingCartPopUpPage extends BasePage {
         return FormatTextHandler.getBigDecimalFromString(getProductPrice());
     }
 
-    public OrderLine getOrderLineInfo() {
+    public OrderLine toOrderLine() {
         Product product = new Product(getProductName(), getProductPriceAsBigDecimal());
         return new OrderLine(product, getProductQuantityAsInteger());
     }

@@ -29,9 +29,7 @@ public class ProductsGridPage extends BasePage {
 
     public List<ProductBoxPage> getListOfProducts() {
         List<ProductBoxPage> listOfProductBox = new ArrayList<>();
-        for (WebElement webElement : listOfProducts) {
-            listOfProductBox.add(new ProductBoxPage(webElement, driver));
-        }
+        listOfProducts.forEach(x->listOfProductBox.add(new ProductBoxPage(x,driver)));
         return listOfProductBox;
     }
 
@@ -42,12 +40,8 @@ public class ProductsGridPage extends BasePage {
     }
 
     public boolean isProductOnTheList(String productName) {
-        List<ProductBoxPage> listOfProductBox = getListOfProducts();
-        for (ProductBoxPage productBoxPage : listOfProductBox) {
-            if (productBoxPage.getProductName().equals(productName)) {
-                return true;
-            }
-        } return false;
+        return getListOfProducts().stream()
+                .anyMatch(x -> x.getProductName().equals(productName));
     }
 }
 

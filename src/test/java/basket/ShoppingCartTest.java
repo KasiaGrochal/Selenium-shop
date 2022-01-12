@@ -27,7 +27,7 @@ public class ShoppingCartTest extends Pages {
             productDetailsPage.
                     addSingleProductToBasket(currentBasket, randomQuantity);
             String productName =shoppingCartPopUpPage.getProductName();
-            soft.assertThat(currentBasket.getOrderLineByProductName(productName)).isEqualToComparingFieldByFieldRecursively(shoppingCartPopUpPage.getOrderLineInfo());
+            soft.assertThat(currentBasket.getOrderLineByProductName(productName)).isEqualToComparingFieldByFieldRecursively(shoppingCartPopUpPage.toOrderLine());
             soft.assertThat(shoppingCartPopUpPage.getThereIsXItemsInfoAsInt()).isEqualTo(currentBasket.getBasketTotalQuantity());
             soft.assertThat(shoppingCartPopUpPage.getTotalProductsValueAsBigDecimal()).isEqualTo(currentBasket.getBasketTotalCost());
 

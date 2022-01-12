@@ -44,17 +44,13 @@ public class OrderConfirmationPage extends BasePage {
 
     public List<OrderConfirmationLinePage> getListOfOrderConfirmationLines() {
         List<OrderConfirmationLinePage> list = new ArrayList<>();
-        for (WebElement orderLine : listOfOrderLines) {
-            list.add(new OrderConfirmationLinePage(orderLine, driver));
-        }
+        listOfOrderLines.forEach(x->list.add(new OrderConfirmationLinePage(x, driver)));
         return list;
     }
 
     public Basket getBasket() {
         Basket basket = new Basket();
-        for (OrderConfirmationLinePage orderLine : getListOfOrderConfirmationLines()) {
-            basket.addOrderLineToBasket(orderLine.toOrderLine());
-        }
+        getListOfOrderConfirmationLines().forEach(x->basket.addOrderLineToBasket(x.toOrderLine()));
         return basket;
     }
 

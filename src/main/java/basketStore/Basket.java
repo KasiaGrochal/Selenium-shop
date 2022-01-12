@@ -1,9 +1,9 @@
 package basketStore;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 public class Basket {
@@ -31,7 +31,6 @@ public class Basket {
             }
         }
         addNewProductToBasket(new Product(productName,price),quantity);
-
     }
 
     public boolean isProductAlreadyInTheBasket(String productName, Product product){
@@ -46,38 +45,25 @@ public class Basket {
         basketLists.add(orderLine);
     }
 
-
     public BigDecimal getBasketTotalCost(){
-        BigDecimal total = BigDecimal.valueOf(0).setScale(2, RoundingMode.HALF_UP);
-        for (OrderLine orderLine: basketLists){
-            total = total.add(orderLine.getTotalCost());
-        }
-        return total;
+        return basketLists.stream()
+                .map(OrderLine::getTotalCost)
+                .reduce(BigDecimal.ZERO.setScale(2), BigDecimal::add);
     }
 
     public int getBasketTotalQuantity(){
-        int total = 0;
-        for (OrderLine orderLine: basketLists){
-            total +=orderLine.getQuantity();
-        }
-        return total;
+        return basketLists.stream().mapToInt(OrderLine::getQuantity).sum();
     }
 
     public void deleteOrderLine(int orderLineIndex){
         basketLists.remove(basketLists.get(orderLineIndex));
     }
 
-    public Integer getOrderLineQuantity(int orderLineIndex){
-        return getBasketLists().get(orderLineIndex).getQuantity();
-    }
-
     public OrderLine getOrderLineByProductName(String productName){
-        for (OrderLine orderLine: getBasketLists()){
-            if(orderLine.getProduct().getName().equals(productName)){
-                return orderLine;
-            }
-        }
-        return null;
+        return getBasketLists().stream().
+                filter(x->x.getProduct().getName().equals(productName)).
+                collect(Collectors.toList()).
+                get(0);
     }
 
 

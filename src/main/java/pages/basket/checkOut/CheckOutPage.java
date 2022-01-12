@@ -10,6 +10,7 @@ import pages.basket.basketSummary.BasketPage;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class CheckOutPage extends BasketPage {
     public CheckOutPage(WebDriver driver) {
@@ -67,31 +68,18 @@ public class CheckOutPage extends BasketPage {
     public List<DeliveryMethodsPage> getListOfDeliveryMethods() {
         webDriverwait.until(x-> ExpectedConditions.attributeContains(deliveryView,"class","-current"));
         List<DeliveryMethodsPage> list = new ArrayList<>();
-        for (WebElement deliveryMethod : listOfDeliveryMethods) {
-            list.add(new DeliveryMethodsPage(deliveryMethod, driver));
-        }
+        listOfDeliveryMethods.forEach(x->list.add(new DeliveryMethodsPage(x,driver)));
         return list;
     }
 
     public CheckOutPage selectDeliveryMethod(String deliveryMethod){
-        for (DeliveryMethodsPage deliveryMethodsPage: getListOfDeliveryMethods()){
-            if(deliveryMethodsPage.getDeliveryMethodName().equals(deliveryMethod)){
-                    deliveryMethodsPage.clickOnDeliveryMethod();
-                    break;
-            }
-        }
+        getListOfDeliveryMethods().stream().
+                filter(x -> x.getDeliveryMethodName().equals(deliveryMethod)).
+                collect(Collectors.toList()).
+                get(0).
+                clickOnDeliveryMethod();
         waitForElementToBeVisibleFluent(deliveryContinueButton);
         deliveryContinueButton.click();
-        return this;
-    }
-
-
-    public CheckOutPage fillInAddressDetails(Address address) {
-        send(streetInput, address.getStreet());
-        send(zipCodeInput, address.getZipCode());
-        send(cityInput, address.getCity());
-        selectRandomCountry();
-        noStaleClick(addressContinueButton);
         return this;
     }
 
@@ -101,11 +89,6 @@ public class CheckOutPage extends BasketPage {
         send(cityInput, address.getCity());
         selectSpecificCountry(country);
         noStaleClick(addressContinueButton);
-        return this;
-    }
-
-    public CheckOutPage selectRandomCountry() {
-        selectRandomOption(selectCountry, 1);
         return this;
     }
 

@@ -70,17 +70,13 @@ public class BasketPage extends BasePage {
 
     public List<OrderLinePage> getListOfOrderLines() {
         List<OrderLinePage> list = new ArrayList<>();
-        for (WebElement orderLine : orderLinesList) {
-            list.add(new OrderLinePage(orderLine, driver));
-        }
+        orderLinesList.forEach(x->list.add(new OrderLinePage(x, driver)));
         return list;
     }
 
     public Basket getBasket() {
         Basket basket = new Basket();
-        for (OrderLinePage orderLine : getListOfOrderLines()) {
-            basket.addOrderLineToBasket(orderLine.toOrderLine());
-        }
+        getListOfOrderLines().forEach(x->basket.addOrderLineToBasket(x.toOrderLine()));
         return basket;
     }
 

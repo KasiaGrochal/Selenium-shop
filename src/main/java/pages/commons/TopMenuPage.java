@@ -73,8 +73,7 @@ public class TopMenuPage extends BasePage {
     }
 
     public List<WebElement> getListOfCategories() {
-        List<WebElement> listOfCategories = categoriesList;
-        return listOfCategories;
+        return categoriesList;
     }
 
     public TopMenuPage goToRandomCategory() {
@@ -92,12 +91,7 @@ public class TopMenuPage extends BasePage {
 
     public boolean isSearchedProductOnTheDropdownList(String productName) {
         waitForWebElementToBeVisable(elementFromDropdown);
-        for (WebElement webElement : searchDropdownList) {
-            if (getText(webElement).contains(productName)) {
-                return true;
-            }
-        }
-        return false;
+        return searchDropdownList.stream().anyMatch(x->x.getText().contains(productName));
     }
 
     public TopMenuPage clickOnSearchIcon() {
