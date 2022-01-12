@@ -32,7 +32,7 @@ public class SearchTest extends Pages {
 
         topMenuPage.
                 typeInSearchBox(randomName);
-        assertThat(topMenuPage.checkIfSearchedProductIsOnTheDropdownList(randomName), equalTo(true));
+        assertThat(topMenuPage.isSearchedProductOnTheDropdownList(randomName), equalTo(true));
 
     }
 

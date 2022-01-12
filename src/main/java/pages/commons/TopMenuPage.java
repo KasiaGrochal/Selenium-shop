@@ -95,7 +95,7 @@ public class TopMenuPage extends BasePage {
     }
 
 
-    public boolean checkIfSearchedProductIsOnTheDropdownList(String productName) {
+    public boolean isSearchedProductOnTheDropdownList(String productName) {
         waitForWebElementToBeVisable(elementFromDropdown);
         for (WebElement webElement : searchDropdownList) {
             if (getText(webElement).contains(productName)) {
