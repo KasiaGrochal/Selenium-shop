@@ -6,6 +6,8 @@ import org.junit.jupiter.api.Test;
 import pages.commons.products.ProductBoxPage;
 import pages.commons.products.ProductsGridPage;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
 
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -27,7 +29,9 @@ public class PricesDropTest extends Pages {
             assertThat(product.getDiscountFlagValue(), equalTo(System.getProperty("discountFlagValue")));
             assertThat(product.isRegularPriceVisible(), equalTo(true));
             assertThat(product.isDiscountPriceVisible(), equalTo(true));
-            assertThat(product.isDiscountCalculatedCorrectly(), equalTo(true));
+            assertThat(isDiscountCalculatedCorrectly(
+                            product.getRegularPriceAsBigDecimal(), product.getDiscountPriceAsBigDecimal()),
+                    equalTo(true));
         }
 
         productsGridPage.
@@ -35,7 +39,15 @@ public class PricesDropTest extends Pages {
         assertThat(productDetailsPage.getDiscountPercentageInfo(), equalTo(System.getProperty("discountPercentageValue")));
         assertThat(productDetailsPage.isRegularPriceDisplayed(), equalTo(true));
         assertThat(productDetailsPage.isDiscountPriceDisplayed(), equalTo(true));
-        assertThat(productDetailsPage.isDiscountCalculatedCorrectly(), equalTo(true));
+        assertThat(isDiscountCalculatedCorrectly(
+                productDetailsPage.getRegularPriceAsBigDecimal(), productDetailsPage.getDiscountPriceAsBigDecimal()),
+                equalTo(true));
 
+    }
+
+    public static boolean isDiscountCalculatedCorrectly(BigDecimal regularPrice, BigDecimal discountPrice) {
+        BigDecimal discountAmount = regularPrice.multiply(BigDecimal.valueOf(0.2)).setScale(2, RoundingMode.HALF_UP);
+        BigDecimal discountShouldBe = regularPrice.subtract(discountAmount);
+        return discountShouldBe.equals(discountPrice);
     }
 }

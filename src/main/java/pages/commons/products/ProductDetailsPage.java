@@ -1,7 +1,6 @@
 package pages.commons.products;
 
 import basketStore.Basket;
-import handlers.CalculatorHelper;
 import handlers.FakeDataGenerator;
 import handlers.FormatTextHandler;
 import org.openqa.selenium.WebDriver;
@@ -55,7 +54,7 @@ public class ProductDetailsPage extends BasePage {
         return getText(regularPriceInfo);
     }
 
-    private BigDecimal getRegularPriceAsBigDecimal() {
+    public BigDecimal getRegularPriceAsBigDecimal() {
         return FormatTextHandler.getBigDecimalFromString(getRegularPrice());
     }
 
@@ -68,9 +67,6 @@ public class ProductDetailsPage extends BasePage {
         return FormatTextHandler.getBigDecimalFromString(getDiscountPrice());
     }
 
-    public boolean isDiscountCalculatedCorrectly() {
-        return CalculatorHelper.isDiscountCalculatedCorrectly(getRegularPriceAsBigDecimal(), getDiscountPriceAsBigDecimal());
-    }
 
     public String getProductName() {
         return getText(productName);

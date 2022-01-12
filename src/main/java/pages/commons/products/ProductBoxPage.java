@@ -1,6 +1,5 @@
 package pages.commons.products;
 
-import handlers.CalculatorHelper;
 import handlers.FormatTextHandler;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -42,7 +41,7 @@ public class ProductBoxPage extends BasePage {
     public String getRegularPrice(){
         return getText(regularPrice);
     }
-    private BigDecimal getRegularPriceAsBigDecimal(){
+    public BigDecimal getRegularPriceAsBigDecimal(){
         return FormatTextHandler.getBigDecimalFromString(getRegularPrice());
     }
 
@@ -50,7 +49,7 @@ public class ProductBoxPage extends BasePage {
         return getText(discountPrice);
     }
 
-    private BigDecimal getDiscountPriceAsBigDecimal(){
+    public BigDecimal getDiscountPriceAsBigDecimal(){
         return FormatTextHandler.getBigDecimalFromString(getDiscountPrice());
     }
 
@@ -60,10 +59,6 @@ public class ProductBoxPage extends BasePage {
 
     public boolean isDiscountPriceVisible(){
         return discountPrice.isDisplayed();
-    }
-
-    public boolean isDiscountCalculatedCorrectly(){
-        return CalculatorHelper.isDiscountCalculatedCorrectly(getRegularPriceAsBigDecimal(),getDiscountPriceAsBigDecimal());
     }
 
 }
